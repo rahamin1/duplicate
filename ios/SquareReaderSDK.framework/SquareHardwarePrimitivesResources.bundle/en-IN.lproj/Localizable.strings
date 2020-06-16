@@ -1,0 +1,6 @@
+/* Display name for peripheral with no custom name, placeholder name, or manufacturer/model name. */
+"HQPeripheralDefaultDisplayName" = "Peripheral";
+
+/* Format string for concatenated printer make and model. */
+"ManufacturerAndModelNameFormat" = "%1$@ %2$@";
+

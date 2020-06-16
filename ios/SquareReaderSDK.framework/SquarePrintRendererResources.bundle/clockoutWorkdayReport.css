@@ -1,0 +1,151 @@
+body {
+    font: 14px "SQ Market", sans-serif;
+    font-weight:400;
+    line-height:1;
+    margin: 16px 20px 20px 20px;
+    /* improves legibility on dirty printers: */
+    /* See RI-8019 */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.line:after {
+    /* Clearfix */
+    content: " "; display: block; height: 0; clear: both;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Creating the line that strikes the header title */
+.header-title::before,
+.header-title::after {
+    content: "";
+    flex-grow: 1;
+    background: black;
+    height: 1px;
+}
+
+.header-title .label {
+    padding:0px 12px;
+}
+
+.header-title.no-logo-spacing {
+    margin-bottom:32px;
+}
+
+.logo-container {
+    height:155px;
+}
+
+.date-location .date {
+    margin-bottom:8px;
+}
+
+.date-location .date.left {
+    margin-bottom:0px;
+}
+
+.date-location--single-day {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.date-location--single-day .location{
+    text-align:right;
+    max-width:140px;
+}
+
+.container .left{
+    max-width:140px;
+    overflow-wrap:break-word;
+}
+
+.employment-data {
+    margin-top:10px;
+}
+
+.employment-data .person-name {
+    margin-bottom:4px;
+}
+
+.employment-data .total-hours {
+    font-size:36px;
+    line-height:100%;
+    margin-bottom:12px;
+}
+
+.container {
+    margin-top:20px;
+    overflow:auto;
+}
+
+.container .black-bar {
+    height: 28px;
+    line-height:30px;
+    background-color:black;
+    margin-bottom:20px;
+}
+
+.container .black-bar .title {
+    text-align:center;
+    color:white;
+}
+
+.container .unit-wrapper {
+    overflow:auto;
+    margin-bottom:20px;
+}
+
+.container .unit-wrapper:last-of-type {
+    margin-bottom:0px;
+}
+
+.container .unit-wrapper .line{
+    margin-bottom:8px;
+}
+
+.container .unit-wrapper .line:last-of-type{
+    margin-bottom:0px;
+}
+
+.date-value, .time-value {
+    display: inline-block;
+}
+
+.black-line-1px {
+    background:black;
+    height:1px;
+    border:none;
+}
+
+.spacing-large-1 {
+    margin-top:32px;
+}
+
+.printed-receipt-date {
+    text-align:center;
+    margin-top: 16px;
+}

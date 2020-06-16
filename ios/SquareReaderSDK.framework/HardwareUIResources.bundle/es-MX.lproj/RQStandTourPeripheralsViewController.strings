@@ -1,0 +1,21 @@
+/* Class = "UILabel"; text = "Welcome to\nSquare Stand."; ObjectID = "20"; */
+"20.text" = "Bienvenido a Square Stand.";
+
+/* Class = "UILabel"; text = "Your stand is connected. Plug hardware devices into the accessories hub to connect them to Point of Sale."; ObjectID = "22"; */
+"22.text" = "El pedestal está conectado. Enchufe los dispositivos al conector para conectarlos al Punto de venta.";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "33"; */
+"33.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "To connect hardware devices, insert your iPad into the stand and connect the accessories hub and power supply."; ObjectID = "59"; */
+"59.text" = "Para conectar los dispositivos de hardware, introduzca su iPad al pedestal y conecte el conector de accesorios y la electricidad.";
+
+/* Class = "UILabel"; text = "Connect iPad to Stand"; ObjectID = "60"; */
+"60.text" = "Conectar iPad al Pedestal";
+
+/* Class = "UILabel"; text = "Your stand is connected. To connect hardware devices, plug the accessories hub into the stand and a power supply."; ObjectID = "62"; */
+"62.text" = "El pedestal está conectado. Para conectar los dispositivos, enchufe el conector al pedestal y a la corriente.";
+
+/* Class = "UILabel"; text = "Connect Stand to Power"; ObjectID = "63"; */
+"63.text" = "Conectar pedestal a corriente";
+

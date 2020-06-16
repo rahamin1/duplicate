@@ -1,0 +1,48 @@
+/* UIBarButtonSystemItemAction title */
+"FQBarButtonSystemItemActionTitle" = "Action";
+
+/* UIBarButtonSystemItemAdd title */
+"FQBarButtonSystemItemAddTitle" = "Add";
+
+/* UIBarButtonSystemItemCancel title */
+"FQBarButtonSystemItemCancelTitle" = "Cancel";
+
+/* UIBarButtonSystemItemDone title */
+"FQBarButtonSystemItemDoneTitle" = "Done";
+
+/* UIBarButtonSystemItemEdit title */
+"FQBarButtonSystemItemEditTitle" = "Edit";
+
+/* UIBarButtonSystemItemRedo title */
+"FQBarButtonSystemItemRedoTitle" = "Redo";
+
+/* UIBarButtonSystemItemSave title */
+"FQBarButtonSystemItemSaveTitle" = "Save";
+
+/* UIBarButtonSystemItemTrash title */
+"FQBarButtonSystemItemTrashTitle" = "Delete";
+
+/* UIBarButtonSystemItemUndo title */
+"FQBarButtonSystemItemUndoTitle" = "Undo";
+
+/* The accessibility text for the navigation bar add button. */
+"ImposterNavigationBarAddButton" = "Add";
+
+/* The accessibility text for the navigation bar back button. */
+"ImposterNavigationBarBackButton" = "Back";
+
+/* The accessibility text for the navigation bar cancel button. */
+"ImposterNavigationBarCancelButton" = "Cancel";
+
+/* The accessibility text for the navigation bar back button. */
+"NavigationBarBackButton" = "Back";
+
+/* Accessibility label for red confirm delete button that appears in a table view cell after selecting the delete button */
+"RGUITableViewCellConfirmDeleteButtonAccessibilityLabel" = "Confirm Delete";
+
+/* Accessibility label for circular red delete button with minus sign that appears in a table view cell. */
+"RGUITableViewCellDeleteButtonAccessibilityLabel" = "Delete";
+
+/* Format String for the accessibility label of a table view section header. The first argument is a primary title and the second a subtitle. e.g. \"Mdifiers, Select One\" where Modifiers is the title and Select One the subtitle. */
+"RGUITableViewSectionHeaderViewAccessibilityLabelFormatString" = "%1$@, %2$@";
+

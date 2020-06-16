@@ -1,0 +1,6 @@
+/* Class = "UILabel"; text = "($0.00 + $0.00 tip)"; ObjectID = "3"; Note = "<DNL>"; */
+"3.text" = "($0.00 + $0.00 tip)";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "4"; Note = "<DNL>"; */
+"4.text" = "$0.00";
+

@@ -1,0 +1,9 @@
+/* Class = "UILabel"; text = "Congrats, you have a reward!"; ObjectID = "3Pg-sT-HmN"; */
+"3Pg-sT-HmN.text" = "Félicitations, vous avez une récompense!";
+
+/* Class = "UIButton"; normalTitle = "Apply Coupon"; ObjectID = "pSq-du-XGQ"; */
+"pSq-du-XGQ.normalTitle" = "Utiliser le bon de réduction";
+
+/* Class = "UIButton"; normalTitle = "Use Later"; ObjectID = "zpz-LH-Wv7"; */
+"zpz-LH-Wv7.normalTitle" = "Utiliser plus tard";
+

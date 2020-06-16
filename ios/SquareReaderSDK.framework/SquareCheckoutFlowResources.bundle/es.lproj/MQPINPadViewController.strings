@@ -1,0 +1,102 @@
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "0In-Y2-TB8"; */
+"0In-Y2-TB8.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "0In-Y2-TB8"; */
+"0In-Y2-TB8.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "DEF"; ObjectID = "247-6t-E8K"; */
+"247-6t-E8K.text" = "DEF";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "2hB-cl-KXx"; */
+"2hB-cl-KXx.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "2hB-cl-KXx"; */
+"2hB-cl-KXx.normalTitle" = "7";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "ARP-rE-STH"; */
+"ARP-rE-STH.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "ARP-rE-STH"; */
+"ARP-rE-STH.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "Please try again."; ObjectID = "AbG-Vl-8ne"; */
+"AbG-Vl-8ne.text" = "Intente de nuevo.";
+
+/* Class = "UIButton"; accessibilityLabel = "Delete"; ObjectID = "BEN-Qa-fbZ"; */
+"BEN-Qa-fbZ.accessibilityLabel" = "Eliminar";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "BEN-Qa-fbZ"; */
+"BEN-Qa-fbZ.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "Bmb-Dq-Wff"; */
+"Bmb-Dq-Wff.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "Bmb-Dq-Wff"; */
+"Bmb-Dq-Wff.normalTitle" = "4";
+
+/* Class = "UILabel"; text = "Enter PIN"; ObjectID = "C2e-Rj-M7N"; */
+"C2e-Rj-M7N.text" = "Ingresar PIN";
+
+/* Class = "UILabel"; text = "JKL"; ObjectID = "Dh8-TV-quH"; */
+"Dh8-TV-quH.text" = "JKL";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "E7i-xH-gz4"; */
+"E7i-xH-gz4.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "E7i-xH-gz4"; */
+"E7i-xH-gz4.normalTitle" = "2";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "Gwq-ht-WaX"; */
+"Gwq-ht-WaX.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "Gwq-ht-WaX"; */
+"Gwq-ht-WaX.normalTitle" = "8";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "Oe3-Ht-zRh"; */
+"Oe3-Ht-zRh.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "Oe3-Ht-zRh"; */
+"Oe3-Ht-zRh.normalTitle" = "6";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "bGQ-Ps-zax"; */
+"bGQ-Ps-zax.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "bGQ-Ps-zax"; */
+"bGQ-Ps-zax.normalTitle" = "9";
+
+/* Class = "UILabel"; text = "WXYZ"; ObjectID = "bV0-Xf-AeE"; */
+"bV0-Xf-AeE.text" = "WXYZ";
+
+/* Class = "UIButton"; accessibilityLabel = "Add"; ObjectID = "fLQ-G5-njK"; */
+"fLQ-G5-njK.accessibilityLabel" = "Agregar";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "fLQ-G5-njK"; */
+"fLQ-G5-njK.normalTitle" = "Omitir";
+
+/* Class = "UILabel"; text = "ABC"; ObjectID = "feg-Dq-Zu5"; */
+"feg-Dq-Zu5.text" = "ABC";
+
+/* Class = "UILabel"; text = "GHI"; ObjectID = "gfd-kJ-qn4"; */
+"gfd-kJ-qn4.text" = "GHI";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "pz5-AS-4fu"; */
+"pz5-AS-4fu.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "pz5-AS-4fu"; */
+"pz5-AS-4fu.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "MNO"; ObjectID = "r1V-jo-2xX"; */
+"r1V-jo-2xX.text" = "MNO";
+
+/* Class = "UILabel"; text = "TUV"; ObjectID = "r8O-sa-iin"; */
+"r8O-sa-iin.text" = "TUV";
+
+/* Class = "UIButton"; accessibilityLabel = " "; ObjectID = "rqf-PK-09d"; */
+"rqf-PK-09d.accessibilityLabel" = " ";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "rqf-PK-09d"; */
+"rqf-PK-09d.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "PQRS"; ObjectID = "z0b-VS-tBH"; */
+"z0b-VS-tBH.text" = "PQRS";
+

@@ -1,0 +1,201 @@
+{
+  "employees" : [
+    {
+      "employee_number" : "2222",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : null,
+      "active" : true,
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_apply_restricted_discounts",
+        "employee_change_register_settings",
+        "employee_edit_items",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_cash_drawer_reports",
+        "employee_view_summaries_reports",
+        "employee_void_open_tickets",
+        "employee_use_instant_deposit",
+        "employee_manage_all_open_tickets",
+        "employee_settle_all_payments_awaiting_tip",
+        "employee_view_expected_in_drawer",
+        "employee_toggle_offline_mode",
+        "employee_use_card_on_file",
+        "employee_manage_customers",
+        "employee_cancel_transaction",
+        "employee_adjust_punches",
+        "employee_manage_employees",
+        "employee_edit_taxes_in_sale",
+        "employee_use_invoices_applet",
+        "employee_edit_surcharges_in_sale",
+        "employee_create_bank_account",
+        "employee_manage_all_calendars",
+        "employee_manage_appointments_business_profile"
+      ],
+      "employee_role_tokens" : [
+        "9XSjI2f3x07ZugDExoSW"
+      ],
+      "can_track_time" : true,
+      "token" : "o-DBtstTYywwbqykeAx2",
+      "first_name" : "Mark",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "cP8+yJx9o25mw5AO7pm6ME3wwQFjqCL7V24ZY11AjUg=",
+        "salt" : "c6QaRwTLNKUVbhD2WCYF"
+      },
+      "current_timecard" : {
+        "employee_token" : "o-DBtstTYywwbqykeAx2",
+        "clockout_unit_token" : null,
+        "id" : "S20D4HQWJ19FQ",
+        "clockin_time" : "2017-08-31T22:37:06Z",
+        "clockout_time" : null,
+        "created_at" : "2017-08-31T22:37:06Z",
+        "clockin_unit_token" : "E37JF3BW0ZWPA",
+        "updated_at" : "2017-08-31T22:37:06Z"
+      },
+      "last_name" : "Buhro",
+      "email" : "rst-robots+kiftests@squareup.com"
+    },
+    {
+      "employee_number" : "0000",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : "",
+      "active" : true,
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_apply_restricted_discounts",
+        "employee_change_register_settings",
+        "employee_edit_items",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_cash_drawer_reports",
+        "employee_view_summaries_reports",
+        "employee_void_open_tickets",
+        "employee_use_instant_deposit",
+        "employee_manage_all_open_tickets",
+        "employee_settle_all_payments_awaiting_tip",
+        "employee_view_expected_in_drawer",
+        "employee_toggle_offline_mode",
+        "employee_use_card_on_file",
+        "employee_manage_customers",
+        "employee_cancel_transaction",
+        "employee_adjust_punches",
+        "employee_manage_employees",
+        "employee_edit_taxes_in_sale",
+        "employee_use_invoices_applet",
+        "employee_edit_surcharges_in_sale",
+        "employee_create_bank_account",
+        "employee_manage_all_calendars",
+        "employee_manage_appointments_business_profile",
+        "employee_run_close_of_day",
+        "employee_manage_service_settings",
+        "employee_reopen_checks"
+      ],
+      "employee_role_tokens" : [
+        "3exxwANAgHq-SdTt21oM"
+      ],
+      "can_track_time" : true,
+      "token" : "KbAbKsF1MSnBxXO7Nilp",
+      "first_name" : "Mister",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "0nAJemDurgNFxei5SbZteyj3mf3hd+1u+vWA9nG+n5E=",
+        "salt" : "FVc3gyw3B2ev7_1yFroC"
+      },
+      "current_timecard" : {
+        "employee_token" : "KbAbKsF1MSnBxXO7Nilp",
+        "clockout_unit_token" : null,
+        "id" : "MCM5MBQCPVM43",
+        "clockin_time" : "2017-08-31T22:37:33Z",
+        "clockout_time" : null,
+        "created_at" : "2017-08-31T22:37:33Z",
+        "clockin_unit_token" : "E37JF3BW0ZWPA",
+        "updated_at" : "2017-08-31T22:37:33Z"
+      },
+      "last_name" : "Panucci",
+      "email" : "rst-robots+panucci@squareup.com"
+    },
+    {
+      "employee_number" : "1111",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : "",
+      "active" : true,
+      "permissions" : [
+        "employee_cancel_transaction",
+        "employee_edit_taxes_in_sale"
+      ],
+      "employee_role_tokens" : [
+        "pAFSSzZiNSqk0BCSUemj"
+      ],
+      "can_track_time" : true,
+      "token" : "clocked-in-employee-token",
+      "first_name" : "Philip J.",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "UhBvmOGorh\/EJ1nnL74fbQW9heekzqZ4jxHJgPPuX0w=",
+        "salt" : "SS1QdBNzKdL9ABHqiR3Z"
+      },
+      "current_timecard" : {
+        "employee_token" : "--IuEdGN2e3hlTjCKk3_",
+        "clockout_unit_token" : null,
+        "id" : "QRCFXPQT0QX83",
+        "clockin_time" : "2017-08-31T22:37:14Z",
+        "clockout_time" : null,
+        "created_at" : "2017-08-31T22:37:14Z",
+        "clockin_unit_token" : "E37JF3BW0ZWPA",
+        "updated_at" : "2017-08-31T22:37:14Z"
+      },
+      "last_name" : "Fry",
+      "email" : ""
+    },
+    {
+      "employee_number" : "3333",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : "",
+      "active" : true,
+      "permissions" : [
+        "employee_cancel_transaction",
+        "employee_edit_taxes_in_sale"
+      ],
+      "employee_role_tokens" : [
+        "pAFSSzZiNSqk0BCSUemj"
+      ],
+      "can_track_time" : true,
+      "token" : "clocked-out-employee-token",
+      "first_name" : "Clocked Out",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "hBYHb5Vh2P5VR5S8\/\/AMTEQG9PLD1arJ+TX6ktbgFJM=",
+        "salt" : "GDqitRGIbfOyNqkvCmVM"
+      },
+      "current_timecard" : null,
+      "last_name" : "Leela",
+      "email" : ""
+    },
+    {
+      "employee_number" : "4444",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : "",
+      "active" : true,
+      "permissions" : [
+        "employee_cancel_transaction",
+        "employee_edit_taxes_in_sale"
+      ],
+      "employee_role_tokens" : [
+        "pAFSSzZiNSqk0BCSUemj"
+      ],
+      "can_track_time" : true,
+      "token" : "on-break-employee-token",
+      "first_name" : "On Break",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "56sdXK79wYTj9sQ9x7DUd+btAhmSH20SZCmXWJHee7Q=",
+        "salt" : "NuyM0yjtpKLrnn-5JyyZ"
+      },
+      "current_timecard" : null,
+      "last_name" : "Leela",
+      "email" : ""
+    }
+  ],
+  "cursor" : null
+}

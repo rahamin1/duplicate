@@ -1,0 +1,150 @@
+/* The subtitle string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedSubtitle" = "決済はキャンセルされました。";
+
+/* The title string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedTitle" = "決済が完了していません";
+
+/* The title string displayed when a payment has been approved. */
+"R2PaymentEngineApprovedTitle" = "承認されました";
+
+/* The title or subtitle string displayed when a swipe is being authorized with the server */
+"R2PaymentEngineAuthorizing" = "承認中";
+
+/* The subtitle string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedSubtitle" = "別のカードをお使いください。";
+
+/* The title string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedTitle" = "このカードは対応していません";
+
+/* The subtitle string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedSubtitle" = "決済はキャンセルされました。";
+
+/* The title string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedTitle" = "リーダーが接続されていません";
+
+/* The subtitle string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedSubtitle" = "続行するにはカードを挿入してください";
+
+/* The title string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedTitle" = "カードが取り出されました";
+
+/* The subtitle string displayed when a dipped card cannot be read. */
+"R2PaymentEngineChipCouldNotBeReadSubtitle" = "ICチップが読み込めませんでした。";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardSubtitle" = "このカードで問題が発生しました。もう一度やり直すか、別のカードを使用してください。";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardTitle" = "カードを挿入してください";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardSubtitle" = "このカードで問題が発生しました。もう一度やり直すか、別のカードを使用してください。";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardTitle" = "別のカードをお試しください";
+
+/* The error message when a payment has been declined by a payment card after being authorized by the server. */
+"R2PaymentEngineDeclinedByCardError" = "支払いカードによりお支払いが承認されませんでした。";
+
+/* The title string displayed when a payment has been declined. */
+"R2PaymentEngineDeclinedTitle" = "承認されませんでした";
+
+/* A subtitle string displayed when a dip payment has been declined by the smart card. */
+"R2PaymentEngineDipDeclinedByCardSubtitle" = "決済を完了できません。";
+
+/* The title string displayed when a card has been inserted and is being read */
+"R2PaymentEngineDoNotRemoveCardTitle" = "カードを抜かないでください";
+
+/* A generic subtitle string displayed when a payment has been declined and no more detailed information is available. */
+"R2PaymentEngineGenericDeclineSubtitle" = "別のカードをお使いください。";
+
+/* The subtitle string displayed when a swiped card must be inserted. */
+"R2PaymentEngineInsertCardSubtitle" = "ICカードを差し込んでください。";
+
+/* The title string displayed when a swipe payment has been approved. */
+"R2PaymentEngineInsertCardTitle" = "カードを挿入してください";
+
+/* The subtitle string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardSubtitle" = "このカードで問題が発生しました。もう一度やり直すか、別のカードを使用してください。";
+
+/* The title string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardTitle" = "カードを差し込むか、別のカードをお試しください";
+
+/* The subtitle string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalSubtitle" = "カードを取り除いてやり直してください。";
+
+/* The title string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalTitle" = "ICカードを抜いてください";
+
+/* The subtitle string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableSubtitle" = "インターネットに接続できません。";
+
+/* The title string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableTitle" = "接続エラーです";
+
+/* The subtitle string displayed when a card has been inserted and is being read */
+"R2PaymentEnginePreparingPaymentSubtitle" = "決済の準備中...";
+
+/* The subtitle string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorSubtitle" = "カードを読み取れませんでした。";
+
+/* The title string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorTitle" = "もう一度タップしてください";
+
+/* The subtitle string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardSubtitle" = "範囲内で1枚以上のカードが検出されました。";
+
+/* The title string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardTitle" = "カードを1枚だけ提示してください";
+
+/* The title string displayed when payment has been approved by the server and is being processed by the reader. */
+"R2PaymentEngineProcessingTitle" = "処理中";
+
+/* The title string displayed when a card has been read and may be removed */
+"R2PaymentEngineRemoveCardTitle" = "カードを取り除く";
+
+/* The title string displayed when the reader responds with a .requestCardReinsertion event. */
+"R2PaymentEngineRequestCardReinsertionTitle" = "もう一度カードを挿入してください";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeSchemeSubtitle" = "Squareは現在、このICカードの読み取りに対応していません。";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeTechnicalSubtitle" = "ICチップが読み込めませんでした。";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message. */
+"R2PaymentEngineRequestCardSwipeTitle" = "カードをスワイプしてください";
+
+/* The subtitle string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionSubtitle" = "お会計に戻り、タッチ決済に対応している場合はカードをタップしてください。または、別の支払方法をお試しください。";
+
+/* The title string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionTitle" = "支払いをキャンセルしてカードをタップしてください";
+
+/* The subtitle string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsSubtitle" = "決済端末でアクションが必要です。";
+
+/* The title string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsTitle" = "手順を電話で参照する";
+
+/* The subtitle string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedSubtitle" = "素早く、まっすぐカードを通してください";
+
+/* The title string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedTitle" = "お会計されていません";
+
+/* A subtitle string displayed when a tap payment has been declined by the smart card. */
+"R2PaymentEngineTapDeclinedByCardSubtitle" = "決済を処理できません。お客様に電話を確認するか、カード発行会社へお問い合わせいただくように伝えてください。";
+
+/* The subtitle string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorSubtitle" = "予期しないエラーが発生しました。もう一度やり直してもエラーが続く場合はサポートに連絡してください。";
+
+/* The title string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorTitle" = "支払いに失敗しました";
+
+/* The subtitle string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPaySubtitle" = "決済用デバイスのロックを解除してから、もう一度やり直してください。";
+
+/* The title string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPayTitle" = "お支払い：電話のロックを解除してください";
+

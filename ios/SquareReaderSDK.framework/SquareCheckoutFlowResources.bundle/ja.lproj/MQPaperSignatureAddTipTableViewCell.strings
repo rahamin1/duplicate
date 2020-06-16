@@ -1,0 +1,15 @@
+/* Class = "UILabel"; text = "Total"; ObjectID = "1zv-T5-0AR"; */
+"1zv-T5-0AR.text" = "合計";
+
+/* Class = "UILabel"; text = "10:35 PM"; ObjectID = "7LA-4b-bvS"; */
+"7LA-4b-bvS.text" = "10:35 PM";
+
+/* Class = "UILabel"; text = "$1234.00"; ObjectID = "EpE-Bo-Aus"; */
+"EpE-Bo-Aus.text" = "$1234.00";
+
+/* Class = "UILabel"; text = "$1234.00"; ObjectID = "XJP-oW-ViW"; */
+"XJP-oW-ViW.text" = "$1234.00";
+
+/* Class = "UILabel"; text = "#123456"; ObjectID = "Xav-ek-vBP"; */
+"Xav-ek-vBP.text" = "#123456";
+

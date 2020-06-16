@@ -1,0 +1,328 @@
+
+Ä
+squareup/common/languages.protosquareup.common.languages*É
+Language
+EN%
+AA
+AB
+AF
+AK
+AM
+AR
+AN
+AS
+AV	
+AE
+
+AY
+AZ
+BA
+BM
+BE
+BN
+BI
+BO
+BS
+BR
+BG
+CA
+CS
+CH
+CE
+CU
+CV
+KW
+CO
+CR
+CY
+DA 
+DE!
+DV"
+DZ#
+EL$
+EO&
+ET'
+EU(
+EE)
+FO*
+FA+
+FJ,
+FI-
+FR.
+FY/
+FF0
+GD1
+GA2
+GL3
+GV4
+GN5
+GU6
+HT7
+HA8
+SH9
+HE:
+HZ;
+HI<
+HO=
+HR>
+HU?
+HY@
+IGA
+IOB
+IIC
+IUD
+IEE
+IAF
+IDG
+IKH
+ISI
+ITJ
+JVK
+JAL
+KLM
+KNN
+KSO
+KAP
+KRQ
+KKR
+KMS
+KIT
+RWU
+KYV
+KVW
+KGX
+KOY
+KJZ
+KU[
+LO\
+LA]
+LV^
+LI_
+LN`
+LTa
+LBb
+LUc
+LGd
+MHe
+MLf
+MRg
+MKh
+MGi
+MTj
+MNk
+MIl
+MSm
+MYn
+NAo
+NVp
+NRq
+NDr
+NGs
+NEt
+NLu
+NNv
+NBw
+NOx
+NYy
+OCz
+OJ{
+OR|
+OM}
+OS~
+PA
+PIÄ
+PLÅ
+PTÇ
+PSÉ
+QUÑ
+RMÖ
+ROÜ
+RNá
+RUà
+SGâ
+SAä
+SIã
+SKå
+SLç
+SEé
+SMè
+SNê
+SDë
+SOí
+STì
+ESî
+SQï
+SCñ
+SRó
+SSò
+SUô
+SWö
+SVõ
+TYú
+TAù
+TTû
+TEü
+TG†
+TL°
+TH¢
+TI£
+TO§
+TN•
+TS¶
+TKß
+TR®
+TW©
+UG™
+UK´
+UR¨
+UZ≠
+VEÆ
+VIØ
+VO∞
+WA±
+WO≤
+XH≥
+YI¥
+YOµ
+ZA∂
+ZH∑
+ZU∏B<
+$com.squareup.protos.common.languages¢SQPBCommonLanguages
+ö
+)squareup/eventstream/v1/eventstream.protosquareup.eventstream.v1squareup/common/countries.protosquareup/common/languages.protosquareup/common/location.protosquareup/common/time.protosquareup/objc/objc.proto"√
+EventM
+event_metadata (2&.squareup.eventstream.v1.EventMetadataReventMetadata7
+source (2.squareup.eventstream.v1.SourceRsource:
+session (2 .squareup.eventstream.v1.SessionRsessionG
+
+experiment (2#.squareup.eventstream.v1.ExperimentBR
+experiment:
+subject (2 .squareup.eventstream.v1.SubjectRsubject
+
+event_name (	R	eventName1
+data (2.squareup.eventstream.v1.DataRdata
+event_value (	R
+eventValue">
+Data
+raw_data (	RrawData
+	raw_bytes (RrawBytes"œ
+Subject!
+
+user_token (	BR	userToken2
+anonymized_user_token (	RanonymizedUserToken4
+account_country_code (	BRaccountCountryCode%
+merchant_token (	RmerchantToken
+
+unit_token (	R	unitToken!
+person_token (	RpersonToken)
+employment_token (	RemploymentToken#
+payment_token	 (	RpaymentToken"K
+Session
+token (	Rtoken*
+start_time_millis (RstartTimeMillis"”
+Source
+type (	BRtypeF
+application (2$.squareup.eventstream.v1.ApplicationRapplication8
+os (2(.squareup.eventstream.v1.OperatingSystemRos7
+device (2.squareup.eventstream.v1.DeviceRdevice;
+reader (2.squareup.eventstream.v1.ReaderBRreader
+
+user_agent (	R	userAgent
+
+ip_address (	R	ipAddressG
+coordinates (2%.squareup.common.location.CoordinatesRcoordinates
+city	 (	BRcity
+region
+ (	BRregion"≥
+Application
+type (	RtypeF
+version (2,.squareup.eventstream.v1.Application.VersionRversion
+
+build_type (	R	buildTypeL
+language_code (2#.squareup.common.languages.LanguageBRlanguageCodeI
+country_code (2".squareup.common.countries.CountryBRcountryCodeè
+Version
+major (BRmajor
+minor (BRminor
+revision (BRrevision+
+prerelease_type (	BRprereleaseType"
+
+prerelease (BR
+prerelease
+build_id (	RbuildId!
+version_name (	RversionName!
+version_code (	RversionCode"?
+OperatingSystem
+type (	Rtype
+version (	Rversion"π
+Device"
+manufacturer (	Rmanufacturer
+brand (	Rbrand
+model (	Rmodel
+language (	Rlanguage'
+installation_id (	RinstallationId%
+advertising_id (	RadvertisingId
+
+android_id (	R	androidId#
+screen_height (RscreenHeight!
+screen_width	 (RscreenWidth8
+screen_diagonal_bucket
+ (BRscreenDiagonalBucket.
+sim (2.squareup.eventstream.v1.SimRsim'
+subscriber_id (	BRsubscriberId'
+network_carrier (	RnetworkCarrier 
+orientation (	Rorientation.
+locale_country_code (	RlocaleCountryCode"î
+Sim
+country_iso (	R
+countryIso
+mcc (Rmcc
+mnc (Rmnc#
+operator_name (	RoperatorName#
+serial_number (	RserialNumber",
+Reader
+type (	Rtype
+id (	Rid"R
+
+Experiment
+name (	Rname
+bucket (	Rbucket
+version (Rversion"±
+EventMetadata
+uuid (	RuuidM
+recorded_timestamp (2.squareup.common.time.DateTimeRrecordedTimestampO
+collected_timestamp (2.squareup.common.time.DateTimeRcollectedTimestamp 
+	collector (	BR	collector!
+library_name (	RlibraryName'
+library_version (	RlibraryVersionBA
+"com.squareup.protos.eventstream.v1P¢SQPBEventstreamV1¬õEVT
+æ	
+squareup/sawmill/service.protosquareup.sawmill)squareup/eventstream/v1/eventstream.proto squareup/common/validation.protosquareup/objc/objc.proto"í
+LogEventStreamRequest6
+events (2.squareup.eventstream.v1.EventReventsA
+	v2_events (2$.squareup.sawmill.EventstreamV2EventRv2Events"b
+LogEventStreamResponse#
+success_count (RsuccessCount#
+failure_count (RfailureCount"r
+LogEventStreamV2Request<
+events (2$.squareup.sawmill.EventstreamV2EventRevents
+sync (:falseRsync"è
+EventstreamV2Event
+uuid (	B¯Ò
+Ruuid'
+catalog_name (	B¯Ò
+RcatalogName
+app_name (	B¯Ò
+RappName(
+recorded_at_usec (RrecordedAtUsec
+	json_data (	RjsonData!
+secret_token (	RsecretToken+
+es2_debug_trace_id (	Res2DebugTraceId"â
+LogEventStreamV2Response#
+success_count (RsuccessCount#
+failure_count (RfailureCount#
+invalid_count (RinvalidCount2‡
+SawmillServicec
+LogEventStream'.squareup.sawmill.LogEventStreamRequest(.squareup.sawmill.LogEventStreamResponsei
+LogEventStreamV2).squareup.sawmill.LogEventStreamV2Request*.squareup.sawmill.LogEventStreamV2ResponseB5
+com.squareup.protos.sawmillà¢SQPBSawmill¬õSAW

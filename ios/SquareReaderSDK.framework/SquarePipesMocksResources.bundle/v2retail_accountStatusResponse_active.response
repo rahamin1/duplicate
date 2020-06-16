@@ -1,0 +1,1012 @@
+{
+  "crm": {
+    "merchant_settings": {
+      "enable_automatic_contact_creation": true
+    }
+  },
+  "return_policy": null,
+  "loyalty_program": {
+    "program_status": "NONE"
+  },
+  "fundraising": {
+    "enabled": false,
+    "url": ""
+  },
+  "gift_cards": {
+    "bins": [
+      "778273",
+      "778332"
+    ],
+    "track1_data": [
+      "SQUARE GIFT CARD",
+      "SQUAREGIFTCARD",
+      "Square Gift Card",
+      "SquareGiftCard"
+    ]
+  },
+  "card_payment_activation_status": "approved",
+  "messages": [
+
+  ],
+  "preferences": {
+    "use_seating": false,
+    "tipping_custom_percentage_options": [
+      {
+        "percentage": 15
+      },
+      {
+        "percentage": 20
+      },
+      {
+        "percentage": 25
+      }
+    ],
+    "skip_signature": false,
+    "tipping_calculation_phase": "POST_TAX_TIP_CALCULATION",
+    "tipping_custom_percentages": [
+      15,
+      20,
+      25
+    ],
+    "employee_management_enabled_for_account": true,
+    "show_floor_plan_timers": false,
+    "use_table_inactivity_indicators": false,
+    "for_paper_signature_use_quick_tip_receipt": true,
+    "employee_management_enabled_for_device": false,
+    "tipping_enabled": false,
+    "use_paper_signature": false,
+    "use_open_tickets_menu_as_home_screen": false,
+    "use_instant_deposits": false,
+    "use_allow_swipe_for_chip_cards": false,
+    "use_curated_image_for_receipt": false,
+    "for_paper_signature_always_print_customer_copy": false,
+    "paper_signature_tip_type": "QUICK_TIP",
+    "use_predefined_tickets": false,
+    "use_auto_gratuity": false,
+    "custom_tender_options_proto": "",
+    "tax_enabled": false,
+    "store_and_forward_enabled": false,
+    "tipping_use_manual_tip_entry": true,
+    "use_course_management": false,
+    "for_open_tickets_send_daily_deletion_email": false,
+    "for_paper_signature_print_additional_auth_slip": false,
+    "expand_fired_items_section_by_default": false,
+    "store_and_forward_single_transaction_limit": {
+      "amount": 10000,
+      "currency_code": "USD"
+    },
+    "use_separate_tipping_screen": false,
+    "kitchen_controls_fires": false,
+    "open_tickets_enabled": true,
+    "tax_rate": "0",
+    "tipping_use_custom_percentages": false,
+    "for_paper_signature_print_itemized_auth_slip": false
+  },
+  "api_authorized_application_ids": [
+    "6GCBd_a5WyVcfR2gtXMsUg",
+    "DXzK2Dk0yhm8P-ilLNqaeQ",
+    "PpXUtu1ZwVFAT0gjx6cTMw",
+    "VDWWpiIfJGQBCgVrctpRmA",
+    "VGKI-uzDZp152Mf1u59_Gw",
+    "br8Vtt-bFcNEiFG4r_XWHA",
+    "f72VxQs0T0UEe0-QX8sSYQ",
+    "hK6PZj2MnvjGOTCYWl38nw",
+    "jb2KLJtmuS1dElhej3W5IQ",
+    "sv_HPjxEqefphsPKdabHmA",
+    "5H395DmaG9_W9NAEcWlvZA",
+    "lMrZSJFUREpJAHE9i8VSHQ",
+    "HgyQqnZ_tRWnenehZDTSLQ",
+    "fVvsLlgaRNyxzuQTbBWvpQ",
+    "Vz6yUBmiFbStoX7QFoKnww",
+    "nll3PYuBEavUl284Gj19Cg",
+    "vMOcoBKkb-nmXeadqa1hag",
+    "vVxxpXEgvIUI0wOi0TFBzA"
+  ],
+  "api_url_list": [
+    "https:\/\/api.squareupstaging.com\/1.0\/"
+  ],
+  "store_and_forward_user_credential": {
+    "signed_logged_in_user": "VNp3Lj8D5Z2xjpC-TH612YNA_ya1lPwpwf68yXT613fmoTnh5Edxp9pWYHbrrP_yESnqvGZnqiZ8qTMVflWQMfIa69J-Vxhu77gddwGuOEeKooU8ecifbEDf3KvKuzW7IHtY0DljnoL-rxtujehlR9YHkT0BpyBBg_6QEgCZ8Bg21bDBzt4tFzgrObexeOnKedbuFE3Aiovm-XO4gyoKpYvYMkihsBRcOKyoS7g0g1w3pPX2MEzJgf9ovLkVJ6xv_uaPG9nneTkz-78kj4pli3t76j5-g-EOxYZns7M7ahQ-G2TzVTLyLOEJzECqoK7ySULoxYS7g_gBp3EQ11RgjmdmTVl3RHcyaUFMGhsKDTVON1RONzdTN1lFWDQSCv____v______38iGwoNMzJONllBWjJRRTA4MBIK____-_______fygBsgFAZWIwNDc2YThkYTE2NjIwYmFmZWIwMDFlNzk0MWJhNWJkNTJjM2Y3OTg0OWI3YWQ1YmY1MzViNjRkMzBlN2Y4ZQ",
+    "version": 1
+  },
+  "reward_programs": [
+
+  ],
+  "open_tickets": {
+    "ticket_groups_max": 100,
+    "open_tickets_max": 500,
+    "ticket_templates_per_group_max": 100
+  },
+  "r12_getting_started_video_url": "https:\/\/d1g145x70srn7h.cloudfront.net\/images\/videos\/contactless\/getting-started.mp4",
+  "tutorial": {
+
+  },
+  "notifications": [
+
+  ],
+  "tipping": {
+    "manual_tip_entry_max_percentage": 50,
+    "smart_tipping_over_threshold_options": [
+      {
+        "percentage": 15
+      },
+      {
+        "percentage": 20
+      },
+      {
+        "percentage": 25
+      }
+    ],
+    "smart_tipping_threshold_money": {
+      "amount": 1000,
+      "currency_code": "USD"
+    },
+    "manual_tip_entry_largest_max_money": {
+      "amount": 100000,
+      "currency_code": "USD"
+    },
+    "manual_tip_entry_smallest_max_money": {
+      "amount": 20000,
+      "currency_code": "USD"
+    },
+    "smart_tipping_under_threshold_options": [
+      {
+        "tip_money": {
+          "amount": 100,
+          "currency_code": "USD"
+        }
+      },
+      {
+        "tip_money": {
+          "amount": 200,
+          "currency_code": "USD"
+        }
+      },
+      {
+        "tip_money": {
+          "amount": 300,
+          "currency_code": "USD"
+        }
+      }
+    ]
+  },
+  "fees": {
+    "cof": {
+      "discount_basis_points": 350,
+      "interchange_cents": 15
+    },
+    "external_api": {
+      "discount_basis_points": 290,
+      "interchange_cents": 30
+    },
+    "web_store_web_form": {
+      "discount_basis_points": 290,
+      "interchange_cents": 30
+    },
+    "invoice_web_form": {
+      "discount_basis_points": 290,
+      "interchange_cents": 30
+    },
+    "appointments": {
+      "discount_basis_points": 290,
+      "interchange_cents": 30
+    },
+    "cp": {
+      "discount_basis_points": 275,
+      "interchange_cents": 0
+    },
+    "cnp": {
+      "discount_basis_points": 350,
+      "interchange_cents": 15
+    },
+    "free": {
+      "discount_basis_points": 0,
+      "interchange_cents": 0
+    }
+  },
+  "user": {
+    "merchant_token": "5N7TN77S7YEX4",
+    "profile_image_square400_url": null,
+    "image": null,
+    "merchant_profile": {
+      "card_color": "546476",
+      "printed_receipt_image_url": null,
+      "curated_image_url": null,
+      "custom_receipt_text": ""
+    },
+    "business_type": "retail_shops",
+    "use_generated_menu": true,
+    "locale": {
+      "country_code": "US",
+      "currency_codes": [
+        "USD"
+      ],
+      "language_code": "en-US"
+    },
+    "mcc": 5399,
+    "name": "THC KIF",
+    "receipt_address": {
+      "city": "New York",
+      "postal_code": "10012",
+      "country_code": "US",
+      "street2": "300",
+      "street1": "375 W Broadway",
+      "name": "THC KIF",
+      "state": "NY"
+    },
+    "subunit_name": "THC KIF",
+    "eligible_for_square_card_processing": true,
+    "id": "11058787",
+    "token": "32N6YAZ2QE080",
+    "email": "v2retail-pos-robots+kiftests+active@squareup.com",
+    "website": null,
+    "phone": "855-700-6000",
+    "profile_image_url": null,
+    "profile_image_square200_url": null,
+    "merchant_key": {
+      "key": "J130AVPMKNNacM0jyXneCPEKxisMgTX8hQizN\/5QvS8=",
+      "master_key_id": 20140326,
+      "timestamp": 1510861282
+    }
+  },
+  "store_and_forward_bill_key": {
+    "bletchley_key_id": "ZTRmYTU1NDE1NDg1ZGE2MjVmNTFlNjFiOTFiMTc2NDMwMzg5Mzg5MXxxdWV1ZWJlcnR8cE1EZ0tmeWFSNnNfQVlBQW1qVHRlY3VWbFVySUxCSHU5LTBvNlNNWldOVQ",
+    "raw_certificate": "MIIEGjCCAwKgAwIBAgIQQ6SadxRp6C2xWNK0hfzbjjANBgkqhkiG9w0BAQ0FADCBhDEQMA4GA1UEBhMHVW5rbm93bjEQMA4GA1UECBMHVW5rbm93bjEQMA4GA1UEBxMHVW5rbm93bjEQMA4GA1UEChMHVW5rbm93bjESMBAGA1UECxMJYmxldGNobGV5MSYwJAYDVQQDEx1CbGV0Y2hsZXkgU2lnbmluZyBDZXJ0aWZpY2F0ZTAeFw0xNzEwMDgwMzM3NTlaFw0xODEyMDgwMzM3NTlaMFIxHTAbBgNVBAoTFEJsZXRjaGxleSBQdWJsaWMgS2V5MTEwLwYDVQQDEyhlNGZhNTU0MTU0ODVkYTYyNWY1MWU2MWI5MWIxNzY0MzAzODkzODkxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwiPHapD+PUFmGH1NTOh\/qoYQP7A6IB8kGGZMDRVGfr5bsKU0qUpd\/1hnYg67\/mdK+WClG\/8VLvu4yfKNI5BzN2Ri5KLzDaK0xRUlUUd8Sm+x8J7nTMOrEAsgxfHJQF7zIROROvnd6uPNXqJSmlnXeVfyP4Aa3p+8W4XoU0gh1IOqULS4+ziwbkKernbNXYU8Ht0Ga3ndfBpqnsaJ4DiODltRw8K\/bx59uRBMPNF13kR5rZcjcaeI+Jai8VSfM+1YjuqJWNHyIipSB\/ekvy7MTBnR5VGF6d5aThYTqJ6h9\/0kLWnyH8WkygTl25QQ46cefCpCrhozyhMLYSxZf\/De6wIDAQABo4G4MIG1MB0GA1UdDgQWBBRCT40nNHMsHE\/sME3tVOrtOvwwZzAOBgNVHQ8BAf8EBAMCA\/gwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMAwGA1UdEwEB\/wQCMAAwHwYDVR0jBBgwFoAUYyv9AV+dwkBp4QiIAU4Z+hE2qN0wNgYDVR0RAQH\/BCwwKoIoZTRmYTU1NDE1NDg1ZGE2MjVmNTFlNjFiOTFiMTc2NDMwMzg5Mzg5MTANBgkqhkiG9w0BAQ0FAAOCAQEAkCk8kgvjGSnqt+8iZS1CEcLsamn4KHHuxbQ9HhB5ua6Qj3HXmUbpTPudvcczTcCbNMt0f5yDCR+Jv\/x1xgo2CA7ILko008zYNKtIp2Ye778rU0uG0WvRY2chtco\/RbBt8e7svUwNInfc\/rEUXS2BOnOWSmexJRMHvjn5EaXBIyCuxrIv3Y5MCb8LYnZd\/keJCD99upCtprTVi4n+lBVzfsV\/uEjqo9cv\/+Dw5xvM967gHEHAf6s+r85UQBTami+oOuEkK3CQ9zhNDu791qz6Tfr\/vSOU74dqs5xz4v4meAFVsB4eK4gqwpRYkeMLx089VX3KjytYvfbIafOFT+sWfg==",
+    "expiration": "3018-06-04T00:00:00Z"
+  },
+  "onboarding_alerts": {
+    "swipe_failures_before_initial_alert": 10000,
+    "swipe_failures_before_secondary_alert": 100000
+  },
+  "rounding_type": "BANKERS",
+  "store_and_forward_key": {
+    "bletchley_key_id": "MzgzNjY4YzQ4ZWU2MTgzZDc4YzJiNWRlOWU0ZDg2N2NmMTg3YjMyZnxxdWV1ZWJlcnR8cGFuaGFuZGxlcnxJSThyM25VSVMyMXNZSEx6bmZiM05PYmFQUXhKTzFUcGUxcW16MkxPNHRz",
+    "raw_certificate": "MIIEGjCCAwKgAwIBAgIQAKTmFsmzmx\/oMHQ9\/aj3pDANBgkqhkiG9w0BAQ0FADCBhDEQMA4GA1UEBhMHVW5rbm93bjEQMA4GA1UECBMHVW5rbm93bjEQMA4GA1UEBxMHVW5rbm93bjEQMA4GA1UEChMHVW5rbm93bjESMBAGA1UECxMJYmxldGNobGV5MSYwJAYDVQQDEx1CbGV0Y2hsZXkgU2lnbmluZyBDZXJ0aWZpY2F0ZTAeFw0xNzEwMjYwNzQ2MzNaFw0xODEyMjYwNzQ2MzNaMFIxHTAbBgNVBAoTFEJsZXRjaGxleSBQdWJsaWMgS2V5MTEwLwYDVQQDEygzODM2NjhjNDhlZTYxODNkNzhjMmI1ZGU5ZTRkODY3Y2YxODdiMzJmMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA774tMyqASnCyJqnyYOpP332SRTBLK3kioAK\/5diLIFPT6r7SAwAzrXjFfCpw32C2ygbp5pwhdVtCY0Akw9\/ulpzEjnfs5Mr8LKdtmOzY\/U0o5eTQGeHVhCPu57Cwkvs7bOIGC0Ced8Jq89o2M0OI5MmOv7jsGY6qZ\/+U1IHFSw7UW+M1So40UPxuyjZcSY9kUYKxmxjS0mKMXedWKmyjNcmTIyBMwJK4QIidl17OhVZ47E+dvRctuXnT1apoYh8yV1bbuTeS\/LpgyoKx4r7n0Uo6896NH2rZH6Q0fAHHz8koEDRbfRuFzAj58zJZXJFxR2Z9DUNO5isacRB89ioUHwIDAQABo4G4MIG1MB0GA1UdDgQWBBQ2Rh1Gq3bVDWDwfIK1wFdxe4gRiTAOBgNVHQ8BAf8EBAMCA\/gwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMAwGA1UdEwEB\/wQCMAAwHwYDVR0jBBgwFoAUYyv9AV+dwkBp4QiIAU4Z+hE2qN0wNgYDVR0RAQH\/BCwwKoIoMzgzNjY4YzQ4ZWU2MTgzZDc4YzJiNWRlOWU0ZDg2N2NmMTg3YjMyZjANBgkqhkiG9w0BAQ0FAAOCAQEAFAr6WtWd5Pg4ifZaFFT2f86vv7prOn0sIupYM3SbcZDdNJp03g2vTe3teqtighh7\/0fow73dcCqrD3zhmwrfOzdfgtO5NEt8Knr0d\/iOcNsW6vfXkUefAExGrX6s57XHL3e2EjmzsrrLz16g3wHywLx03A6KqTjRnV7vRR8hp0q7S8vaNPFvVvXFmRPthqabVndQIqEwShlcGV555SJSJmaNwFmkYad7RsQzoMoBk884ca4RhQO+uggd1y6uinFjIbiF4NRpnkpVyCLTZ560+9uixn0opSMoom4AjwWYfr5puhv73tq8Ph5eSfMSdoPk0dQby6wYUX0\/PBWiq\/qGyA==",
+    "expiration": "3017-11-24T00:00:00Z"
+  },
+  "threshold": {
+    "message": "Please update your client, this feature is deprecated",
+    "amount_cents": 200000,
+    "title": "Payment Details"
+  },
+  "subscriptions": [
+    {
+      "status": "active",
+      "product_key": "retail"
+    },
+    {
+      "status": "free_trial",
+      "product_key": "weebly_business"
+    },
+    {
+      "status": "canceled",
+      "product_key": "weebly_pro"
+    }
+  ],
+  "instant_deposits": {
+    "fee_amount": {
+      "amount": 0,
+      "currency_code": "USD"
+    },
+    "fee_basis_points": 100
+  },
+  "show_cnp_fee_warning": true,
+  "api_url": "https:\/\/api.squareupstaging.com\/1.0\/",
+  "other_tenders": [
+    {
+      "tender_opens_cash_drawer": true,
+      "tender_note_prompt": "Optional Note",
+      "tender_name": "Check",
+      "tender_type": 1
+    },
+    {
+      "tender_opens_cash_drawer": true,
+      "tender_note_prompt": "Optional Note",
+      "tender_name": "Other Gift Card",
+      "tender_type": 2
+    },
+    {
+      "tender_opens_cash_drawer": false,
+      "tender_note_prompt": "Optional Note",
+      "tender_name": "Other",
+      "tender_type": 100
+    }
+  ],
+  "features": {
+    "use_customer_directory_with_invoices": false,
+    "examples": {
+      "example_register_only_flag": false,
+      "example_globally_enabled": false,
+      "example_country_rollout": false,
+      "example_register_dashboard_rollout": false
+    },
+    "accept_third_party_gift_cards": false,
+    "use_card_on_file_in_android_register_ca": true,
+    "use_comps_ios": true,
+    "onboard": {
+      "choose_default_deposit_method": false,
+      "validate_shipping_address": true,
+      "ask_intent_questions": false
+    },
+    "use_card_on_file_in_android_register_au": false,
+    "allow_payment_for_invoice_android": true,
+    "sync_cash_drawer_shifts_up": true,
+    "autocomplete_emails_in_client": false,
+    "use_bills_api_for_store_and_forward": false,
+    "can_activate_card_payments": false,
+    "bfd": {
+      "pos_bfd_connectivity": false
+    },
+    "use_customer_list_in_android_mobile": true,
+    "see_new_locations_page": true,
+    "use_white_label": false,
+    "use_upcoming_reader_fulfillment": true,
+    "use_invoice_applet_in_android": true,
+    "use_invoice_applet_in_ios": true,
+    "killweb": {
+      "example_flag": false,
+      "payment_cards": true
+    },
+    "opt_in_to_open_tickets_with_beta_ui": false,
+    "show_bank_linking_nags_in_app": true,
+    "use_dining_options": false,
+    "giftcard": {
+      "use_new_activation_flow": false,
+      "gift_card_on_file": false,
+      "refund_to_gift_card_ios": false,
+      "scan_to_add_contact": false
+    },
+    "allows_tipping_on_printed_receipt_with_emv": false,
+    "link_card_on_file_uk": true,
+    "see_payroll_register_learn_more_android": false,
+    "print_logo_on_paper_android": false,
+    "catalog": {
+      "use_catalog_sdk_for_catalog_incremental_store": true,
+      "compare_catalog_sdk_results_in_incremental_store": false,
+      "should_allow_basic_inventory": false,
+      "use_catalog_incremental_store_with_rollback": false,
+      "should_allow_spos_restock_on_itemized_refund": false,
+      "example_catalog_flag": false,
+      "write_to_catalog_tables_ios": false,
+      "should_disallow_itemsfe_inventory_api": false
+    },
+    "use_bills_api_for_single_tender": true,
+    "eligible_for_third_party_card_processing": false,
+    "collect_a10_system_logs": false,
+    "use_pre_tax_tipping_ios": true,
+    "checklist_recommended_products": false,
+    "pos": {
+      "disable_es1_logging": false,
+      "can_use_es2_logging": true,
+      "rename_pos_to_checkout": false,
+      "can_use_forced_offline_mode": true,
+      "use_device_level_paper_signature": false
+    },
+    "email_transaction_ledger": false,
+    "use_inventory_plus": false,
+    "use_card_on_file_in_ios_register_uk": true,
+    "loyalty_2": true,
+    "appointments_in_ios": true,
+    "can_refer_friend_in_app_android": false,
+    "hide_modifiers_on_receipts_in_ios": false,
+    "change_item_visibility": false,
+    "merge_open_tickets_android": false,
+    "received_r12": false,
+    "release_refunded_holds_with_ledger": true,
+    "rent_hardware_medium": false,
+    "show_dipped_payments": true,
+    "see_reports_dashboard_link_ios": true,
+    "show_o1_jp_deprecation_warning_in_app": false,
+    "supported_card_brands_online": [
+      "visa",
+      "mastercard",
+      "american_express",
+      "discover",
+      "discover_diners",
+      "jcb"
+    ],
+    "bank_link_in_app": true,
+    "use_dining_options_ios_mobile": false,
+    "use_customer_list_profile_in_checkout_android": false,
+    "deeplink": {
+      "deep_link_over_signin": true
+    },
+    "login_type": "owner",
+    "can_accept_debit_cards": true,
+    "use_ios_buyer_facing_display": true,
+    "use_employee_filtering_for_open_tickets": true,
+    "show_gen2_deprecation_warning_in_app": true,
+    "use_employees_applet_in_ios": false,
+    "can_use_customer_directory": true,
+    "skip_receipt_screen": true,
+    "use_r12_pairing_v2": true,
+    "terminal": {
+      "app_x2_dip_card_for_customer_cof": false,
+      "prefill_cofs_from_appointments": true,
+      "app_fee_tutorial": false,
+      "dip_card_for_customer_cof": false,
+      "app_can_order_r12": true,
+      "app_can_order_r4": true,
+      "app_show_iphone7_a4_popup": false,
+      "app_can_show_cnp_fees": false,
+      "can_show_fees": true,
+      "app_can_show_order_reader_menu": true,
+      "enable_link_dipped_amex_failure": false,
+      "app_show_iphone7_no_headphone_jack_popup": true,
+      "send_bandit_assignment_once": false,
+      "universal_linking_api": true,
+      "app_dip_cof_post_payment": false
+    },
+    "be_tab_merchant": false,
+    "deposits": {
+      "use_deposits_report_card_payments": false,
+      "use_deposits_report_detail": false,
+      "view_bank_account": false,
+      "use_deposits_report": false
+    },
+    "receive_open_ticket_daily_deletion_emails": false,
+    "rent_hardware_long": false,
+    "test": {
+      "appointments_via_kelly": false,
+      "sihao_simmons_test": false
+    },
+    "receive_guaranteed_funds": false,
+    "use_card_on_file_in_android_register": false,
+    "use_r12": true,
+    "crm": {
+      "use_profile_attachments": false,
+      "use_saved_filters": false,
+      "reorder_recent_transaction": false,
+      "use_filter_manual_group": true,
+      "use_bulk_actions": false,
+      "feedback_push_notifications": true,
+      "use_new_groups_and_filtering": false,
+      "use_reminders": false,
+      "merge_in_register": true,
+      "can_update_instant_profile_setting": false,
+      "show_bill_history_android": true,
+      "use_filter_visit_frequency": true,
+      "use_libphonenumber_android": true,
+      "use_profile_attachments_upload": true,
+      "use_groups_v2": false,
+      "buyer_email_collection": false,
+      "use_adhoc_filters": false,
+      "allows_coupons_in_direct_message": false,
+      "use_filter_location": true,
+      "can_delete_groups": true,
+      "ost_ignore_push_notifications": false,
+      "see_add_to_sale_walkthrough": false
+    },
+    "use_invoicing": false,
+    "use_a10_contactless": true,
+    "signature_stroke": "default",
+    "use_gzip_ios": false,
+    "use_employee_filtering_on_xyz_reports": true,
+    "use_bills_api_for_single_tender_cash_other": true,
+    "beacons": {
+      "can_use_android_pay_beacons": false
+    },
+    "onboarding": {
+      "validate_shipping_address": true
+    },
+    "use_feedback_messaging_ios": false,
+    "see_ember_upgrade": false,
+    "redeem_discover_card_promo_r12": false,
+    "libcardreader": {
+      "ritual_check_usb_fragment_id": true
+    },
+    "use_customer_list_in_transactions": true,
+    "use_safetynet": false,
+    "skip_signatures_for_small_payments": true,
+    "use_open_tickets_mobile_ios": false,
+    "cardholder_name_on_dip_ios": false,
+    "use_conditional_taxes": true,
+    "see_dashboard_expected_in_drawer_permission": false,
+    "use_split_ticket_ios": true,
+    "enable_mixpanel": false,
+    "see_advanced_modifiers": false,
+    "use_voids_ios": true,
+    "write_to_catalog_tables_ios": false,
+    "rounding_type": "BANKERS",
+    "refund_in_app": true,
+    "sound_effects_default": false,
+    "use_customer_list_applet_in_android": true,
+    "can_skip_receipt_screen": true,
+    "bank_link_post_signup": true,
+    "eligible_for_activation": true,
+    "skip_modifier_detail_screen_in_ios": false,
+    "use_card_on_file_in_ios_register": true,
+    "devplatmobile": {
+      "use_paysdk": true
+    },
+    "show_items_library_after_login": false,
+    "can_modify_taxes": true,
+    "can_enable_tipping": true,
+    "use_open_tickets": false,
+    "supported_language_codes": [
+      "en"
+    ],
+    "use_merchant_catalog": true,
+    "product_tour": false,
+    "employee": {
+      "updated_guest_access": false
+    },
+    "regextest": {
+      "regextest": true
+    },
+    "show_bilingual_screens_v0": true,
+    "support": {
+      "is_support_applet_beta_tester": false,
+      "can_display_support_applet": false,
+      "can_show_jedi_support_flow": false
+    },
+    "privacy_policy_url": "https:\/\/squareupstaging.com\/us\/en\/legal\/privacy",
+    "use_async_add_tender_for_non_card_payment_ios": true,
+    "use_feedback_coupons": false,
+    "allow_mobile_cashier_to_toggle_offline_mode": true,
+    "collect_tip_before_authorization": false,
+    "accept_p2p_payments": false,
+    "bank_link_in_app_android": true,
+    "see_retail_product_catalog": false,
+    "use_bills_flow_for_invoices": false,
+    "use_rst": false,
+    "eligible_for_split_tender": true,
+    "cardholder_name_on_dip_android": true,
+    "use_beta_online_store_feature": false,
+    "use_split_tender": true,
+    "add_payment_card_in_cards_onboarding": false,
+    "allow_invoice_search_android": true,
+    "allow_payment_for_invoice_ios": true,
+    "link_card_on_file_ca": true,
+    "use_card_associated_coupons": true,
+    "use_customer_list_applet_in_ios": true,
+    "use_employee_customers_permission": true,
+    "use_lombard_for_async_payment_events_on_ios": true,
+    "swipe_to_create_open_ticket_with_name": true,
+    "use_predefined_tickets_android": false,
+    "use_automatic_modifiers": false,
+    "use_customer_list_activity_list_in_android": true,
+    "use_remote_device_settings": true,
+    "use_crm_custom_attributes": false,
+    "refund_in_app_without_card_number": true,
+    "can_see_directory_pro_upsell": false,
+    "use_open_tickets_android": false,
+    "show_tapped_payments": true,
+    "use_australian_gross_sales": true,
+    "buyer_place_pickup_orders": true,
+    "use_employee_timecards": true,
+    "use_android_reports_applet": false,
+    "contact_account_management": false,
+    "use_expeditors_yyz_fulfillment": true,
+    "sync_cash_drawer_shifts_down": true,
+    "cnp_ask_if_customer_present": false,
+    "customer_close_large_tabs": false,
+    "use_cancel_buyer_flow": true,
+    "readerfw": {
+      "k400_hint_usb_powered": true,
+      "quickchip": false,
+      "k400_hint_card_insert": true
+    },
+    "view_gift_card_history_events": true,
+    "use_crm_notes_rollout": false,
+    "reduce_printing_waste_ios": true,
+    "support_external_tickets": false,
+    "reduce_printing_waste_android": false,
+    "use_r6": true,
+    "use_category_filter_on_mobile_ios": false,
+    "store_n_forward": false,
+    "invoice_tipping": true,
+    "use_crm_messaging_override": false,
+    "redeem_free_r12": false,
+    "has_customized_merchant_card": true,
+    "requires_track_2_if_not_amex": false,
+    "use_employees_applet": false,
+    "use_reports_unified_options_ios": true,
+    "reports": {
+      "use_alternate_sales_summary": false
+    },
+    "use_item_based_coupons": true,
+    "see_payroll_register_feature_tour": false,
+    "link_card_on_file_jp": true,
+    "contact_support_twitter": "SqSupport",
+    "show_surcharges_on_ios_buyer_facing_display": false,
+    "can_publish_merchant_card": true,
+    "auto_capture_payments": true,
+    "loyalty_2_android": false,
+    "invoices": {
+      "enable_invoices_beta": false,
+      "file_attachment_android": true,
+      "mobile_analytics_android": true,
+      "invoice_event_history_android": false,
+      "mobile_analytics_ios": true,
+      "shipping_address_android": false,
+      "first_invoice_tutorial_android": true,
+      "invoice_preview_android": true,
+      "default_message_android": true,
+      "recurring_mobile": true,
+      "file_attachment_ios": true,
+      "first_invoice_tutorial_ios": true,
+      "invoice_recurring_ios": true,
+      "invoice_share_link_android": true,
+      "invoice_share_link_ios": true
+    },
+    "use_customer_list_in_ios": true,
+    "use_printing_mobile_ios": false,
+    "collect_tip_before_authorization_preferred": false,
+    "use_square_printers": true,
+    "use_text_tiles": false,
+    "opt_in_to_open_tickets_with_beta_ui_android": false,
+    "issue_partial_refunds": true,
+    "transfer_open_tickets_android": false,
+    "can_bulk_delete_open_tickets_android": false,
+    "use_catalog_for_items_ios": false,
+    "use_magstripe_only_readers": true,
+    "support_items_applet_ios": false,
+    "eligible_for_surcharges": false,
+    "qrcode_payments": false,
+    "print_logo_on_paper_dashboard": true,
+    "protect_edit_tax": true,
+    "rent_hardware_short": false,
+    "supported_card_brands_offline": [
+      "visa",
+      "mastercard",
+      "american_express",
+      "discover",
+      "discover_diners",
+      "jcb"
+    ],
+    "use_customer_list_applet_in_ios_mobile": true,
+    "use_open_tickets_reporting": false,
+    "use_customer_list_activity_list_in_ios": true,
+    "use_predefined_tickets_ios": false,
+    "collect_cnp_postal_code": true,
+    "can_allow_swipe_for_chip_cards_android": true,
+    "enable_blocked_main_thread_logging_ios": true,
+    "use_android_barcode_scanning": true,
+    "use_punch_adjustments": true,
+    "use_mobile_invoices": true,
+    "uses_device_profile": false,
+    "use_card_on_file_in_android_register_on_mobile_jp": false,
+    "country_prefers_emv": false,
+    "use_multiple_images": true,
+    "loyalty": {
+      "contact_rewards_finder": true,
+      "show_loyalty_feature_tour": true,
+      "status_in_transaction": false,
+      "buyer_can_send_loyalty_status_android": true,
+      "always_show_loyalty": false,
+      "alphanumeric_coupons": false,
+      "loyalty_beyond_pos": true
+    },
+    "display_learn_more_r4": true,
+    "use_hacky_refunds": false,
+    "request_apple_pay_marketing_kit": false,
+    "use_reports_iphone": false,
+    "see_quick_add_item": false,
+    "view_dashboard_app_education_banners_abtest": true,
+    "can_allow_swipe_for_chip_cards_ios": true,
+    "can_see_marketing_upsell": false,
+    "retailer" : {
+      "can_use_order_protos" : true,
+      "inventory_counting" : true,
+      "partial_order_fulfillment" : true,
+      "retail_redirect_alert" : true,
+      "can_use_redesign" : true,
+      "must_use_redesign" : true,
+      "order_hub" : true,
+      "can_create_order" : true
+    },
+    "allow_invoice_search_ios": true,
+    "buyer_purchase_gift_cards": true,
+    "use_web_storefronts": true,
+    "can_upload_preferences": true,
+    "use_crm_messaging": true,
+    "use_paper_signature": true,
+    "use_reports_charts_android": false,
+    "use_in_app_timecards": false,
+    "bank_link_post_signup_android": true,
+    "use_customer_list_in_ios_mobile": true,
+    "enable_ios8_nscache_crash_fix": true,
+    "activate_post_signup": true,
+    "clear_inflight_register_api_requests": true,
+    "see_payroll_employees_upsell": true,
+    "seller_agreement_url": "https:\/\/squareupstaging.com\/us\/en\/legal\/ua",
+    "use_instant_deposits": false,
+    "use_item_embedding": true,
+    "appointments": {
+      "prompt_r12_pairing_flow": false
+    },
+    "use_employee_filtering_for_paper_signature_android": false,
+    "use_mobile_invoices_with_discounts": true,
+    "zero_amount_contactless_arqc_experiment": false,
+    "payments": {
+      "address_validation": true
+    },
+    "use_a10": true,
+    "transfer_open_tickets": true,
+    "use_card_on_file_in_android_register_on_mobile_ca": true,
+    "items_batch_size": 10000,
+    "use_card_on_file_in_android_register_on_mobile_au": false,
+    "can_onboard_on_spa": false,
+    "payment_cards": true,
+    "use_marketing_friendly_receipt_legal_disclosure": false,
+    "use_android_employee_management": false,
+    "use_customer_subscription_packages": true,
+    "use_promo_codes": true,
+    "skip_modifier_detail_screen_in_android": false,
+    "can_onboard": false,
+    "use_open_tickets_mobile_android": true,
+    "use_gift_cards_v2": true,
+    "use_card_on_file_in_android_register_uk": true,
+    "use_stand": true,
+    "upload_support_ledger": false,
+    "sync_cash_drawer_shifts_up_via_queue": true,
+    "use_customer_list_applet_in_android_mobile": true,
+    "uniqlo_jpy_rounding": false,
+    "buyer_can_send_loyalty_status_ios": true,
+    "accept_remote_orders": false,
+    "print_logo_on_paper_ios": true,
+    "use_crm_notes_override": false,
+    "use_r12_wirelessly": true,
+    "receive_csp_headers": true,
+    "view_dashboard_app_feed_beta": false,
+    "use_cogs_leveldb_backing_store": false,
+    "use_employees_applet_null_state_in_android": false,
+    "referral": {
+      "should_hide_referral_link": false,
+      "show_system_sharesheet": true
+    },
+    "can_refer_friend_in_app": false,
+    "login_with_deprecated_client": false,
+    "ios_dismiss_keyboard_when_adding_item_to_cart": false,
+    "use_separate_applet_for_register_api_ios": false,
+    "force_receipt_email_entry": false,
+    "bypass_flipper_staging_whitelist": false,
+    "refer_a_friend": true,
+    "see_android_jumbo_buttons": false,
+    "view_dashboard_app_push_notifications_beta": false,
+    "eligible_for_square_card_processing": true,
+    "show_inclusive_taxes_in_cart": true,
+    "loyalty_2_ios_mobile": true,
+    "help_center_url": "https:\/\/squareupstaging.com\/help\/us\/en",
+    "use_card_on_file_in_android_register_jp": false,
+    "use_customer_list_in_android": true,
+    "see_payroll_register_learn_more_ios": true,
+    "opt_in_to_store_and_forward_payments": false,
+    "use_card_on_file_in_ios_register_jp": false,
+    "bizbank": {
+      "use_balance_applet": false
+    },
+    "paymentflow": {
+      "allow_cof_signatures": true,
+      "allow_cnp_signatures": true,
+      "can_use_jp_formal_printed_receipts": false,
+      "can_use_payment_method_v2": false,
+      "play_a10_payment_tone": false,
+      "immediately_enqueue_async_tenders_ios": true,
+      "can_always_skip_signatures": true,
+      "can_use_emoney": true
+    },
+    "use_r12_keepalive_over_usb": true,
+    "contact_phone_support": false,
+    "use_employee_filtering_for_paper_signature": false,
+    "use_receipt_programs": false,
+    "see_advanced_modifiers_ios": false,
+    "use_card_reader_learn_more_ios": true,
+    "use_in_app_help_center": true,
+    "swedish_rounding": false,
+    "can_modify_business_type": false,
+    "use_employees_applet_null_state_in_ios": false,
+    "use_online_store_giftcard_redemption": false,
+    "send_item_models_with_itemizations": true,
+    "support_restaurant_items": false,
+    "activate_in_app": true,
+    "link_card_on_file_au": true,
+    "use_crm_messaging_rollout": true,
+    "use_multiunit_item_editing": true,
+    "use_revamped_xyz_reports": true,
+    "use_employees_applet_in_android": false,
+    "regex": {
+      "ignore_unauthorized_account_status_response_ios": false,
+      "use_reprint_tickets_ios": true,
+      "send_debug_exceptions_to_fabric_ios": true,
+      "test_enum_feature": false,
+      "blocked_main_thread_logging_ios_fatal": false,
+      "use_square_printers": false,
+      "can_log_network_metrics_ios": false,
+      "use_session_token_encryption_android": false,
+      "granular_location_service_lockouts_ios": false,
+      "use_redundant_queues_android": false,
+      "blocked_main_thread_logging_ios": false,
+      "use_api_url_list_android": true,
+      "use_neptr_api_endpoint": true,
+      "use_noho_phase_1_ios": false,
+      "use_printer_stations_ios": false,
+      "should_prompt_to_setup_new_printers": false,
+      "upload_ledger_and_diagnostics_x2": false,
+      "use_clock_skew_lockout_ios": false,
+      "blocked_main_thread_logging_ios_verbose": false,
+      "use_itemized_refunds_ios": false,
+      "ignore_any_unauthorized_network_response_ios": false,
+      "can_log_network_error_metrics_ios": true,
+      "loyalty_checkout_x2": true,
+      "can_log_nonfatal_on_session_token_cleared": false,
+      "upload_x2_wifi_events": true,
+      "use_first_refund_tutorial_android": true,
+      "square_printers_logging_ios": true,
+      "bundle_logging": true,
+      "double_log_es2": false,
+      "use_clock_skew_lockout_android": true,
+      "ignore_pii_accessibility_scrubber_android": false,
+      "square_printers_verbose_logging_ios": false,
+      "print_itemized_discounts": false,
+      "log_transaction_ledger_to_eventstream1_ios": false,
+      "use_master_detail_help_applet": false,
+      "use_persistent_bundle_android": false,
+      "use_pre_tax_tipping_android": true,
+      "double_log_es1": true,
+      "use_api_url_list_ios": true,
+      "clock_skew_lockout": false
+    },
+    "use_void_comp_android": false,
+    "use_card_on_file_in_android_register_on_mobile": false,
+    "support_retail_items": false,
+    "use_employee_filtering_for_open_tickets_android": false,
+    "use_paper_signature_android": false,
+    "use_virtual_gift_cards": false,
+    "view_dashboard_app_first_run_abtest": true,
+    "collect_tip_before_authorization_required": false,
+    "offer_free_reader": true,
+    "use_android_printer_stations": false,
+    "can_log_add_tenders_ios": false,
+    "use_auto_instant_deposit": false,
+    "use_card_on_file_in_ios_register_au": false,
+    "use_debug_menu": false,
+    "use_split_tickets_android": false,
+    "hide_modifiers_on_receipts_in_android": false,
+    "sms": true,
+    "support_appointment_items": false,
+    "using_time_tracking": true,
+    "cardreaders": {
+      "reader_connectivity_guidance_enabled": false,
+      "r12_early_k400_powerup": false,
+      "reader_connectivity_guidance_ui": false,
+      "reorder_in_app": true,
+      "disable_emergency_r12_ble_improvements_in_4_54_3": false,
+      "upload_local_ble_connection_failure_logs": false,
+      "show_order_reader_status_in_app": true,
+      "maintain_r12_ble_connection_in_background_on_ios": false,
+      "reader_connectivity_guidance_shop_links": false,
+      "maintain_square_stand_connection_in_background_on_ios": false,
+      "send_cal_logs_to_eventstream": false,
+      "send_cal_logs_to_eventstream_if_ios11": false,
+      "require_secure_session_for_r6_swipe": false,
+      "show_exact_battery_percentage_for_r12": false,
+      "can_use_quickchip": false,
+      "use_remove_headphones_warning": true,
+      "uses_round_robin_command_queue_in_stand": true
+    },
+    "use_crm_notes": false,
+    "use_mobile_invoices_with_modifiers": true,
+    "use_ios_cross_app_api": true,
+    "use_bluetooth_le": false,
+    "use_item_based_coupons_android": true,
+    "restaurants": {
+      "seating": false,
+      "issue_refunds": false,
+      "use_rst": false,
+      "cash_management": false,
+      "order_history": false,
+      "catalog_places_menu_group_membership_tiles": true,
+      "adjust_tips_delayed": false,
+      "log_es_to_crash_reporter": false,
+      "single_unit_menu_groups": true,
+      "page_tiles_reference_menu_group_memberships": true,
+      "use_unified_check_actions": false,
+      "view_sales_reports": true,
+      "adjust_tips": false,
+      "employee_id_card": false,
+      "use_gratuity_free_receipts": true,
+      "split_check": false
+    },
+    "kelly": {
+      "migrate_to_access_all_sales_activity_permission": true,
+      "migrate_to_deposits_service": true
+    },
+    "use_card_on_file_in_ios_register_ca": true,
+    "use_legacy_employee_for_testing": false,
+    "use_merge_ticket_ios": true,
+    "use_mobile_invoices_with_discounts_and_modifiers": false,
+    "require_secure_session_for_r6_swipe": false,
+    "country_prefers_contactless_cards": false,
+    "use_card_on_file_in_android_register_on_mobile_uk": true
+  },
+  "store_and_forward_payment_expiration_seconds": 259200,
+  "merchant_units": [
+    {
+      "token": "32N6YAZ2QE080",
+      "nickname": "THC KIF",
+      "active": true
+    },
+    {
+      "token": "6EGTEV3EWH793",
+      "nickname": "ETL KIF",
+      "active": true
+    },
+    {
+      "token": "HKBTM3GC22V9V",
+      "nickname": "FYS KIF",
+      "active": true
+    },
+    {
+      "token": "S7BFZNEZCM17G",
+      "nickname": "HAPT KIF",
+      "active": true
+    },
+    {
+      "token": "V3FHHKZ9VW07N",
+      "nickname": "LFG KIF",
+      "active": true
+    },
+    {
+      "token": "YGSYW9J6M4FVJ",
+      "nickname": "KEV KIF",
+      "active": true
+    }
+  ],
+  "bank_account_status": "none",
+  "reader_status": {
+    "shipped": false,
+    "requested": false
+  },
+  "fee_types": {
+    "types": [
+      {
+        "calculation_phase": 2,
+        "ordinal": 0,
+        "applies_to_all_items": true,
+        "is_default": true,
+        "id": "us_sales_tax",
+        "inclusion_type": "ADDITIVE",
+        "adjustment_type": "tax",
+        "name": "Sales Tax",
+        "default": true
+      }
+    ],
+    "helper_text": null
+  },
+  "success": true,
+  "latest_client_version": 47620012,
+  "merchant_register_settings": {
+    "default_register_permissions": [
+      "employee_access_sales_history",
+      "employee_apply_restricted_discounts",
+      "employee_change_register_settings",
+      "employee_edit_items",
+      "employee_issue_refunds",
+      "employee_open_cash_drawer_outside_sale",
+      "employee_view_cash_drawer_reports",
+      "employee_view_summaries_reports",
+      "employee_void_open_tickets",
+      "employee_use_instant_deposit",
+      "employee_manage_all_open_tickets",
+      "employee_settle_all_payments_awaiting_tip",
+      "employee_edit_taxes_in_sale"
+    ]
+  },
+  "server_time": "2017-03-22T17:18:47Z",
+  "limits": {
+    "transaction_max_cents": 5000000,
+    "gift_card_max_total_purchase_amount_cents": 1000000,
+    "skip_receipt_max_cents": 2500,
+    "transaction_min_cents": 100,
+    "currency_code": "USD",
+    "gift_card_max_activation_amount_cents": 200000
+  },
+  "tax_ids": [
+
+  ],
+  "experiments": [
+
+  ]
+}

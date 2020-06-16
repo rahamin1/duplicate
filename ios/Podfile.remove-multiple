@@ -1,0 +1,179 @@
+platform :ios, '11.1'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+def add_flipper_pods!(versions = {})
+  versions['Flipper'] ||= '~> 0.33.1'
+  versions['DoubleConversion'] ||= '1.1.7'
+  versions['Flipper-Folly'] ||= '~> 2.1'
+  versions['Flipper-Glog'] ||= '0.3.6'
+  versions['Flipper-PeerTalk'] ||= '~> 0.0.4'
+  versions['Flipper-RSocket'] ||= '~> 1.0'
+
+  pod 'FlipperKit', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitLayoutPlugin', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/SKIOSNetworkPlugin', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitUserDefaultsPlugin', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitReactPlugin', versions['Flipper'], :configuration => 'Debug'
+
+  # List all transitive dependencies for FlipperKit pods
+  # to avoid them being linked in Release builds
+  pod 'Flipper', versions['Flipper'], :configuration => 'Debug'
+  pod 'Flipper-DoubleConversion', versions['DoubleConversion'], :configuration => 'Debug'
+  pod 'Flipper-Folly', versions['Flipper-Folly'], :configuration => 'Debug'
+  pod 'Flipper-Glog', versions['Flipper-Glog'], :configuration => 'Debug'
+  pod 'Flipper-PeerTalk', versions['Flipper-PeerTalk'], :configuration => 'Debug'
+  pod 'Flipper-RSocket', versions['Flipper-RSocket'], :configuration => 'Debug'
+  pod 'FlipperKit/Core', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/CppBridge', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FBCxxFollyDynamicConvert', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FBDefines', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FKPortForwarding', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitHighlightOverlay', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitLayoutTextSearchable', versions['Flipper'], :configuration => 'Debug'
+  pod 'FlipperKit/FlipperKitNetworkPlugin', versions['Flipper'], :configuration => 'Debug'
+end
+
+# Post Install processing for Flipper
+def flipper_post_install(installer)
+  installer.pods_project.targets.each do |target|
+    if target.name == 'YogaKit'
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '4.1'
+      end
+    end
+  end
+end
+
+target 'plumpPlum' do
+  # Pods for plumpPlum
+  pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '../node_modules/react-native/'
+  pod 'React-Core', :path => '../node_modules/react-native/'
+  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '../node_modules/react-native/'
+  pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
+
+  pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga', :modular_headers => true
+
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  target 'plumpPlumTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  use_native_modules!
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  add_flipper_pods!
+
+
+post_install do |installer|
+  flipper_post_install(installer)
+  # you should change the sample auto_process_target method call to fit your project
+
+  # sample for the question
+  auto_process_target('[plumpPlum]', 'SquareReaderSDK', installer)
+  # sample for the multi app use on same framework
+  #auto_process_target(['exampleiOSApp', 'exampleMacApp'], 'exampleFramework', installer)
+
+end
+
+# the below code no need to modify
+
+def auto_process_target(app_target_names, embedded_target_name, installer)
+  words = find_words_at_embedded_target('Pods-' + embedded_target_name,
+                                        installer)
+  handle_app_targets(app_target_names.map{ |str| 'Pods-' + str },
+                     words,
+                     installer)
+end
+
+def find_line_with_start(str, start)
+  str.each_line do |line|
+      if line.start_with?(start)
+        return line
+      end
+  end
+  return nil
+end
+
+def remove_words(str, words)
+  new_str = str
+  words.each do |word|
+    new_str = new_str.sub(word, '')
+  end
+  return new_str
+end
+
+def find_words_at_embedded_target(target_name, installer)
+  target = installer.pods_project.targets.find { |target| target.name == target_name }
+  target.build_configurations.each do |config|
+    xcconfig_path = config.base_configuration_reference.real_path
+    xcconfig = File.read(xcconfig_path)
+    old_line = find_line_with_start(xcconfig, "OTHER_LDFLAGS")
+
+    if old_line == nil
+      next
+    end
+    words = old_line.split(' ').select{ |str| str.start_with?("-l") }.map{ |str| ' ' + str }
+    return words
+  end
+end
+
+def handle_app_targets(names, words, installer)
+  installer.pods_project.targets.each do |target|
+    if names.index(target.name) == nil
+      next
+    end
+    puts "Updating #{target.name} OTHER_LDFLAGS"
+    target.build_configurations.each do |config|
+      xcconfig_path = config.base_configuration_reference.real_path
+      xcconfig = File.read(xcconfig_path)
+      old_line = find_line_with_start(xcconfig, "OTHER_LDFLAGS")
+
+      if old_line == nil
+        next
+      end
+      new_line = remove_words(old_line, words)
+
+      new_xcconfig = xcconfig.sub(old_line, new_line)
+      File.open(xcconfig_path, "w") { |file| file << new_xcconfig }
+    end
+  end
+end
+
+
+end
+
+target 'plumpPlum-tvOS' do
+  # Pods for plumpPlum-tvOS
+
+  target 'plumpPlum-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

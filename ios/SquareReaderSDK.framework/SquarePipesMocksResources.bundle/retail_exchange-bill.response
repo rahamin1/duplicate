@@ -1,0 +1,910 @@
+{
+  "refund": [
+    {
+      "write_only_creator_details": {
+        "employee": {
+          "last_name": "Jen",
+          "read_only_full_name": "Jen, Mark",
+          "employee_token": "P8Ix5WfQRn8j5fBb_OQd",
+          "first_name": "Mark"
+        }
+      },
+      "write_only_amount": {
+        "amount": 2127,
+        "currency_code": "USD"
+      },
+      "state": "SUCCESS",
+      "write_only_linked_bill_server_token": "MXtwFdwd0iR91eqlX1IZWRkeV",
+      "read_only_linked_tender": {
+        "method": {
+          "cash_tender": {
+            "amounts": {
+              "change_back_money": {
+                "amount": 0,
+                "currency_code": "USD"
+              },
+              "buyer_tendered_money": {
+                "amount": 5521,
+                "currency_code": "USD"
+              }
+            }
+          }
+        },
+        "tendered_at": {
+          "date_string": "2017-09-13T11:54:13-04:00"
+        },
+        "tender_id_pair": {
+          "client_id": "0807AF4F-13F9-490F-AFF0-2DE0607BFC78",
+          "server_id": "s9e3x8RpcPXD59vSSNpsKQB"
+        },
+        "creator_details": {
+          "employee": {
+            "last_name": "Jen",
+            "read_only_full_name": "Jen, Mark",
+            "employee_token": "P8Ix5WfQRn8j5fBb_OQd",
+            "first_name": "Mark"
+          }
+        },
+        "read_only_receipt_number": "s9e3",
+        "type": "CASH",
+        "extra_tender_details": {},
+        "read_only_state": "SETTLED",
+        "amounts": {
+          "total_money": {
+            "amount": 5521,
+            "currency_code": "USD"
+          }
+        }
+      },
+      "read_only_refunded_at": {
+        "date_string": "2017-09-13T16:01:15Z"
+      },
+      "write_only_linked_tender_server_token": "s9e3x8RpcPXD59vSSNpsKQB",
+      "refund_id_pair": {
+        "client_id": "16BA10B9-CBE2-4B1B-9CA6-5C09D5D55BE8",
+        "server_id": "2eU1ec4XSQHTOkSIHYo5S"
+      },
+      "reason": "Returned Goods",
+      "write_only_requested_at": {
+        "date_string": "2017-09-13T16:01:14Z"
+      }
+    }
+  ],
+  "square_product_attributes": {
+    "register": {}
+  },
+  "cart": {
+    "amount_details": {
+      "sale": {
+        "total_money": {
+          "amount": 263,
+          "currency_code": "USD"
+        },
+        "tip_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "discount_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "tax_money": {
+          "amount": 74,
+          "currency_code": "USD"
+        }
+      },
+      "return": {
+        "total_money": {
+          "amount": 2390,
+          "currency_code": "USD"
+        },
+        "tip_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "discount_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "tax_money": {
+          "amount": 401,
+          "currency_code": "USD"
+        }
+      },
+      "net": {
+        "total_money": {
+          "amount": -2127,
+          "currency_code": "USD"
+        },
+        "tip_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "discount_money": {
+          "amount": 0,
+          "currency_code": "USD"
+        },
+        "tax_money": {
+          "amount": -357,
+          "currency_code": "USD"
+        }
+      }
+    },
+    "line_items": {
+      "fee": [
+        {
+          "amounts": {
+            "applied_money": {
+              "amount": 28,
+              "currency_code": "USD"
+            },
+            "applied_to_money": {
+              "amount": 189,
+              "currency_code": "USD"
+            },
+            "after_application_total_money": {
+              "amount": 217,
+              "currency_code": "USD"
+            }
+          },
+          "read_only_display_details": {
+            "calculation_phase": "FEE_SUBTOTAL_PHASE",
+            "inclusion_type": "ADDITIVE",
+            "tax_type_name": "Sales Tax",
+            "cogs_object_id": "OAMVPFKXBYIGNNXYY2RSJTCW",
+            "tax_label_order": 0,
+            "percentage": "15",
+            "name": "15% Exclusive",
+            "tax_type_id": "us_sales_tax"
+          },
+          "fee_line_item_id_pair": {
+            "client_id": "DE43E786-ED35-472E-9957-DB3685F16CE7",
+            "server_id": "b12d6e0d-20af-4deb-91ac-54d260a84855"
+          },
+          "created_at": {
+            "date_string": "2017-09-13T13:38:51-04:00"
+          }
+        },
+        {
+          "amounts": {
+            "applied_money": {
+              "amount": 17,
+              "currency_code": "USD"
+            },
+            "applied_to_money": {
+              "amount": 189,
+              "currency_code": "USD"
+            },
+            "after_application_total_money": {
+              "amount": 206,
+              "currency_code": "USD"
+            }
+          },
+          "read_only_display_details": {
+            "calculation_phase": "FEE_SUBTOTAL_PHASE",
+            "inclusion_type": "ADDITIVE",
+            "tax_type_name": "Sales Tax",
+            "cogs_object_id": "RRRV2YBTJSGEERR6GIG4GE6G",
+            "tax_label_order": 2,
+            "percentage": "8.875",
+            "name": "8.875% High Precision Exclusive",
+            "tax_type_id": "us_sales_tax"
+          },
+          "fee_line_item_id_pair": {
+            "client_id": "8F2BCDE7-D0C9-4265-9553-2F217BF08305",
+            "server_id": "01771418-73f0-4c2f-8258-d414d29c5684"
+          },
+          "created_at": {
+            "date_string": "2017-09-13T13:38:51-04:00"
+          }
+        },
+        {
+          "amounts": {
+            "applied_money": {
+              "amount": 19,
+              "currency_code": "USD"
+            },
+            "applied_to_money": {
+              "amount": 189,
+              "currency_code": "USD"
+            },
+            "after_application_total_money": {
+              "amount": 208,
+              "currency_code": "USD"
+            }
+          },
+          "read_only_display_details": {
+            "calculation_phase": "FEE_SUBTOTAL_PHASE",
+            "inclusion_type": "ADDITIVE",
+            "tax_type_name": "Sales Tax",
+            "cogs_object_id": "2MG4EJF3F4DD2CK44FQBHB3S",
+            "tax_label_order": 1,
+            "percentage": "10",
+            "name": "10% Exclusive",
+            "tax_type_id": "us_sales_tax"
+          },
+          "fee_line_item_id_pair": {
+            "client_id": "D9F9A216-5F36-4DD5-B114-B69AF3B810F3",
+            "server_id": "f60a42c5-de1b-40ad-9e19-9a3762ce9921"
+          },
+          "created_at": {
+            "date_string": "2017-09-13T13:38:51-04:00"
+          }
+        },
+        {
+          "amounts": {
+            "applied_money": {
+              "amount": 10,
+              "currency_code": "USD"
+            },
+            "applied_to_money": {
+              "amount": 189,
+              "currency_code": "USD"
+            },
+            "after_application_total_money": {
+              "amount": 199,
+              "currency_code": "USD"
+            }
+          },
+          "read_only_display_details": {
+            "calculation_phase": "FEE_SUBTOTAL_PHASE",
+            "inclusion_type": "INCLUSIVE",
+            "tax_type_name": "Sales Tax",
+            "cogs_object_id": "66KFWPHMOQLC2MWH4VRXCQT2",
+            "tax_label_order": 3,
+            "percentage": "5.55555",
+            "name": "5.55555% High Precision Exclusive",
+            "tax_type_id": "us_sales_tax"
+          },
+          "fee_line_item_id_pair": {
+            "client_id": "A66C83D2-DEBA-490B-8BFD-12FCFA319A0A",
+            "server_id": "1918be24-f41b-4027-b1b9-6dd499968c2b"
+          },
+          "created_at": {
+            "date_string": "2017-09-13T13:38:51-04:00"
+          }
+        }
+      ],
+      "itemization": [
+        {
+          "quantity": "1",
+          "read_only_display_details": {
+            "item": {
+              "name": "Apple",
+              "abbreviation": "Ap",
+              "cogs_object_id": "FS7AL2T3V6WI7P7NNYEKJ5KZ"
+            }
+          },
+          "event": [
+            {
+              "event_type": "CREATION",
+              "event_id_pair": {
+                "client_id": "B8FD85C6-095F-4CBB-AA45-542F02A1DA04"
+              },
+              "creator_details": {
+                "employee": {
+                  "last_name": "Jen",
+                  "read_only_full_name": "Mark Jen",
+                  "employee_token": "P8Ix5WfQRn8j5fBb_OQd",
+                  "first_name": "Mark"
+                }
+              },
+              "created_at": {
+                "date_string": "2017-09-13T13:38:51-04:00"
+              }
+            }
+          ],
+          "created_at": {
+            "date_string": "2017-09-13T13:38:51-04:00"
+          },
+          "configuration": {
+            "selected_options": {
+              "fee": [
+                {
+                  "amounts": {
+                    "applied_money": {
+                      "amount": 28,
+                      "currency_code": "USD"
+                    }
+                  },
+                  "read_only_display_details": {
+                    "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                    "inclusion_type": "ADDITIVE",
+                    "tax_type_name": "Sales Tax",
+                    "cogs_object_id": "OAMVPFKXBYIGNNXYY2RSJTCW",
+                    "tax_label_order": 0,
+                    "percentage": "15",
+                    "name": "15% Exclusive",
+                    "tax_type_id": "us_sales_tax"
+                  },
+                  "fee_line_item_id_pair": {
+                    "client_id": "60CFF0FE-3BD5-4E7C-A80A-F997D1788ACC",
+                    "server_id": "9e256bed-a50e-4cc9-837b-e55b11fa93b3"
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T13:38:51-04:00"
+                  }
+                },
+                {
+                  "amounts": {
+                    "applied_money": {
+                      "amount": 19,
+                      "currency_code": "USD"
+                    }
+                  },
+                  "read_only_display_details": {
+                    "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                    "inclusion_type": "ADDITIVE",
+                    "tax_type_name": "Sales Tax",
+                    "cogs_object_id": "2MG4EJF3F4DD2CK44FQBHB3S",
+                    "tax_label_order": 1,
+                    "percentage": "10",
+                    "name": "10% Exclusive",
+                    "tax_type_id": "us_sales_tax"
+                  },
+                  "fee_line_item_id_pair": {
+                    "client_id": "6E1AA4DD-821C-4860-B12F-D190AECC623E",
+                    "server_id": "9fffd302-60e3-4f45-b97a-999b6ebd703f"
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T13:38:51-04:00"
+                  }
+                },
+                {
+                  "amounts": {
+                    "applied_money": {
+                      "amount": 17,
+                      "currency_code": "USD"
+                    }
+                  },
+                  "read_only_display_details": {
+                    "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                    "inclusion_type": "ADDITIVE",
+                    "tax_type_name": "Sales Tax",
+                    "cogs_object_id": "RRRV2YBTJSGEERR6GIG4GE6G",
+                    "tax_label_order": 2,
+                    "percentage": "8.875",
+                    "name": "8.875% High Precision Exclusive",
+                    "tax_type_id": "us_sales_tax"
+                  },
+                  "fee_line_item_id_pair": {
+                    "client_id": "A3109F80-7368-48AC-A020-02560C11AB5A",
+                    "server_id": "fd987af8-d8b7-43dd-baa7-61f844021467"
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T13:38:51-04:00"
+                  }
+                },
+                {
+                  "amounts": {
+                    "applied_money": {
+                      "amount": 10,
+                      "currency_code": "USD"
+                    }
+                  },
+                  "read_only_display_details": {
+                    "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                    "inclusion_type": "INCLUSIVE",
+                    "tax_type_name": "Sales Tax",
+                    "cogs_object_id": "66KFWPHMOQLC2MWH4VRXCQT2",
+                    "tax_label_order": 3,
+                    "percentage": "5.55555",
+                    "name": "5.55555% High Precision Exclusive",
+                    "tax_type_id": "us_sales_tax"
+                  },
+                  "fee_line_item_id_pair": {
+                    "client_id": "1A37395B-5C5E-4B63-815A-4C6817CF0BCA",
+                    "server_id": "d9d34a49-2dcd-4d27-b195-16ff5ae285dc"
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T13:38:51-04:00"
+                  }
+                }
+              ],
+              "item_variation_details": {
+                "display_variation_name": true,
+                "read_only_display_details": {
+                  "price_money": {
+                    "amount": 199,
+                    "currency_code": "USD"
+                  },
+                  "name": "Gold Delicious",
+                  "cogs_object_id": "2XIZCVXPY3HDRA65K7MN2IXW",
+                  "sku": ""
+                }
+              }
+            },
+            "backing_type": "ITEM_VARIATION",
+            "item_variation_price_money": {
+              "amount": 199,
+              "currency_code": "USD"
+            }
+          },
+          "itemization_id_pair": {
+            "client_id": "FFFC3C24-73C9-47C6-810D-010584D19525",
+            "server_id": "ySZ4XtuVJWsWOVWEQol5S"
+          },
+          "amounts": {
+            "total_money": {
+              "amount": 263,
+              "currency_code": "USD"
+            },
+            "item_variation_price_money": {
+              "amount": 199,
+              "currency_code": "USD"
+            },
+            "item_variation_price_times_quantity_money": {
+              "amount": 199,
+              "currency_code": "USD"
+            },
+            "discount_money": {
+              "amount": 0,
+              "currency_code": "USD"
+            },
+            "tax_money": {
+              "amount": 74,
+              "currency_code": "USD"
+            }
+          }
+        }
+      ]
+    },
+    "return_line_items": [
+      {
+        "source_bill_server_id": "MXtwFdwd0iR91eqlX1IZWRkeV",
+        "fee_line_item": [
+          {
+            "amounts": {
+              "applied_money": {
+                "amount": 76,
+                "currency_code": "USD"
+              },
+              "applied_to_money": {
+                "amount": 853,
+                "currency_code": "USD"
+              },
+              "after_application_total_money": {
+                "amount": 929,
+                "currency_code": "USD"
+              }
+            },
+            "read_only_display_details": {
+              "calculation_phase": "FEE_SUBTOTAL_PHASE",
+              "inclusion_type": "ADDITIVE",
+              "tax_type_name": "Sales Tax",
+              "cogs_object_id": "RRRV2YBTJSGEERR6GIG4GE6G",
+              "tax_label_order": 2,
+              "percentage": "8.875",
+              "name": "8.875% High Precision Exclusive",
+              "tax_type_id": "us_sales_tax"
+            },
+            "fee_line_item_id_pair": {
+              "client_id": "87D6684B-65F6-4655-A910-451D641DB879",
+              "server_id": "adding-a-server-id-to-avoid-debug-assertion-87D6684B-65F6-4655-A910-451D641DB879"
+            },
+            "created_at": {
+              "date_string": "2017-09-13T11:53:32-04:00"
+            }
+          },
+          {
+            "amounts": {
+              "applied_money": {
+                "amount": 111,
+                "currency_code": "USD"
+              },
+              "applied_to_money": {
+                "amount": 1989,
+                "currency_code": "USD"
+              },
+              "after_application_total_money": {
+                "amount": 2100,
+                "currency_code": "USD"
+              }
+            },
+            "read_only_display_details": {
+              "calculation_phase": "FEE_SUBTOTAL_PHASE",
+              "inclusion_type": "INCLUSIVE",
+              "tax_type_name": "Sales Tax",
+              "cogs_object_id": "66KFWPHMOQLC2MWH4VRXCQT2",
+              "tax_label_order": 3,
+              "percentage": "5.55555",
+              "name": "5.55555% High Precision Exclusive",
+              "tax_type_id": "us_sales_tax"
+            },
+            "fee_line_item_id_pair": {
+              "client_id": "3C4A97D1-1CF5-4792-8AF9-E64E7796602F",
+              "server_id": "adding-a-server-id-to-avoid-debug-assertion-3C4A97D1-1CF5-4792-8AF9-E64E7796602F"
+            },
+            "created_at": {
+              "date_string": "2017-09-13T11:53:32-04:00"
+            }
+          },
+          {
+            "amounts": {
+              "applied_money": {
+                "amount": 86,
+                "currency_code": "USD"
+              },
+              "applied_to_money": {
+                "amount": 853,
+                "currency_code": "USD"
+              },
+              "after_application_total_money": {
+                "amount": 939,
+                "currency_code": "USD"
+              }
+            },
+            "read_only_display_details": {
+              "calculation_phase": "FEE_SUBTOTAL_PHASE",
+              "inclusion_type": "ADDITIVE",
+              "tax_type_name": "Sales Tax",
+              "cogs_object_id": "2MG4EJF3F4DD2CK44FQBHB3S",
+              "tax_label_order": 1,
+              "percentage": "10",
+              "name": "10% Exclusive",
+              "tax_type_id": "us_sales_tax"
+            },
+            "fee_line_item_id_pair": {
+              "client_id": "C9FBD339-9088-4ADE-B942-AB7C6AE456C6",
+              "server_id": "adding-a-server-id-to-avoid-debug-assertion-C9FBD339-9088-4ADE-B942-AB7C6AE456C6"
+            },
+            "created_at": {
+              "date_string": "2017-09-13T11:51:56-04:00"
+            }
+          },
+          {
+            "amounts": {
+              "applied_money": {
+                "amount": 128,
+                "currency_code": "USD"
+              },
+              "applied_to_money": {
+                "amount": 853,
+                "currency_code": "USD"
+              },
+              "after_application_total_money": {
+                "amount": 981,
+                "currency_code": "USD"
+              }
+            },
+            "read_only_display_details": {
+              "calculation_phase": "FEE_SUBTOTAL_PHASE",
+              "inclusion_type": "ADDITIVE",
+              "tax_type_name": "Sales Tax",
+              "cogs_object_id": "OAMVPFKXBYIGNNXYY2RSJTCW",
+              "tax_label_order": 0,
+              "percentage": "15",
+              "name": "15% Exclusive",
+              "tax_type_id": "us_sales_tax"
+            },
+            "fee_line_item_id_pair": {
+              "client_id": "CEF95D80-BB00-433F-B8EE-45D3D13B8C7A",
+              "server_id": "adding-a-server-id-to-avoid-debug-assertion-CEF95D80-BB00-433F-B8EE-45D3D13B8C7A"
+            },
+            "created_at": {
+              "date_string": "2017-09-13T11:53:32-04:00"
+            }
+          }
+        ],
+        "return_itemization": [
+          {
+            "source_itemization_id_pair": {
+              "client_id": "667E0353-0C41-41FE-BC9D-09A9B0E3C7EE",
+              "server_id": "eMTspeX7yaAAeprQRNr5S"
+            },
+            "itemization": {
+              "quantity": "1",
+              "read_only_display_details": {
+                "item": {
+                  "name": "Tomato",
+                  "abbreviation": "To",
+                  "cogs_object_id": "JB47TJMZNBWTXXWUZTDSQQWZ"
+                }
+              },
+              "event": [
+                {
+                  "event_type": "CREATION",
+                  "event_id_pair": {
+                    "client_id": "DB8D2757-56D8-4AF7-8F94-ED2A60D49180"
+                  },
+                  "creator_details": {
+                    "employee": {
+                      "last_name": "Jen",
+                      "read_only_full_name": "Mark Jen",
+                      "employee_token": "P8Ix5WfQRn8j5fBb_OQd",
+                      "first_name": "Mark"
+                    }
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T11:53:32-04:00"
+                  }
+                }
+              ],
+              "created_at": {
+                "date_string": "2017-09-13T11:53:32-04:00"
+              },
+              "configuration": {
+                "selected_options": {
+                  "fee": [
+                    {
+                      "amounts": {
+                        "applied_money": {
+                          "amount": 86,
+                          "currency_code": "USD"
+                        }
+                      },
+                      "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "2MG4EJF3F4DD2CK44FQBHB3S",
+                        "tax_label_order": 1,
+                        "percentage": "10",
+                        "name": "10% Exclusive",
+                        "tax_type_id": "us_sales_tax"
+                      },
+                      "fee_line_item_id_pair": {
+                        "client_id": "36804C29-6A21-4121-959C-F578794B27A6",
+                        "server_id": "f7d15a60-8aa2-4885-bbd8-458bdc67a66b"
+                      },
+                      "created_at": {
+                        "date_string": "2017-09-13T11:51:56-04:00"
+                      }
+                    },
+                    {
+                      "amounts": {
+                        "applied_money": {
+                          "amount": 47,
+                          "currency_code": "USD"
+                        }
+                      },
+                      "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "INCLUSIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "66KFWPHMOQLC2MWH4VRXCQT2",
+                        "tax_label_order": 3,
+                        "percentage": "5.55555",
+                        "name": "5.55555% High Precision Exclusive",
+                        "tax_type_id": "us_sales_tax"
+                      },
+                      "fee_line_item_id_pair": {
+                        "client_id": "09A9CAA6-47BE-4557-967C-5D3885821AAD",
+                        "server_id": "cb880725-639d-41b1-9497-c2c0a0a151cd"
+                      },
+                      "created_at": {
+                        "date_string": "2017-09-13T11:53:32-04:00"
+                      }
+                    },
+                    {
+                      "amounts": {
+                        "applied_money": {
+                          "amount": 76,
+                          "currency_code": "USD"
+                        }
+                      },
+                      "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "RRRV2YBTJSGEERR6GIG4GE6G",
+                        "tax_label_order": 2,
+                        "percentage": "8.875",
+                        "name": "8.875% High Precision Exclusive",
+                        "tax_type_id": "us_sales_tax"
+                      },
+                      "fee_line_item_id_pair": {
+                        "client_id": "9F94B350-9E14-4953-A556-8FB750492E6C",
+                        "server_id": "6c4339aa-efe4-4bce-922e-f4049cd68f07"
+                      },
+                      "created_at": {
+                        "date_string": "2017-09-13T11:53:32-04:00"
+                      }
+                    },
+                    {
+                      "amounts": {
+                        "applied_money": {
+                          "amount": 128,
+                          "currency_code": "USD"
+                        }
+                      },
+                      "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "OAMVPFKXBYIGNNXYY2RSJTCW",
+                        "tax_label_order": 0,
+                        "percentage": "15",
+                        "name": "15% Exclusive",
+                        "tax_type_id": "us_sales_tax"
+                      },
+                      "fee_line_item_id_pair": {
+                        "client_id": "4879BFA5-B139-4DCA-9035-0EC3A159A1AA",
+                        "server_id": "cba72308-8fa7-4d58-a272-7ea6e028b506"
+                      },
+                      "created_at": {
+                        "date_string": "2017-09-13T11:53:32-04:00"
+                      }
+                    }
+                  ],
+                  "item_variation_details": {
+                    "display_variation_name": false,
+                    "read_only_display_details": {
+                      "price_money": {
+                        "amount": 900,
+                        "currency_code": "USD"
+                      },
+                      "name": "Regular",
+                      "cogs_object_id": "VFACFD27UMYYGKWNSHYPEKR5",
+                      "sku": "7890"
+                    }
+                  }
+                },
+                "backing_type": "ITEM_VARIATION",
+                "item_variation_price_money": {
+                  "amount": 900,
+                  "currency_code": "USD"
+                }
+              },
+              "itemization_id_pair": {
+                "client_id": "67750226-32D8-4A0E-A7D0-783B367E6B62",
+                "server_id": "AiaH8DxSk9GYgiShSTkE"
+              },
+              "amounts": {
+                "total_money": {
+                  "amount": 1190,
+                  "currency_code": "USD"
+                },
+                "item_variation_price_money": {
+                  "amount": 900,
+                  "currency_code": "USD"
+                },
+                "item_variation_price_times_quantity_money": {
+                  "amount": 900,
+                  "currency_code": "USD"
+                },
+                "discount_money": {
+                  "amount": 0,
+                  "currency_code": "USD"
+                },
+                "tax_money": {
+                  "amount": 337,
+                  "currency_code": "USD"
+                }
+              }
+            }
+          },
+          {
+            "source_itemization_id_pair": {
+              "client_id": "949BEB90-1B17-434E-9A66-6D5F70ACFEEE",
+              "server_id": "sBkjGUn14NAH0BPRABA6S"
+            },
+            "itemization": {
+              "quantity": "1",
+              "read_only_display_details": {
+                "item": {
+                  "name": "Magic Balm",
+                  "abbreviation": "Ma",
+                  "cogs_object_id": "E4GWM3FUWOFNF4EPGDNVBSO4"
+                }
+              },
+              "event": [
+                {
+                  "event_type": "CREATION",
+                  "event_id_pair": {
+                    "client_id": "6D3B51A6-25DC-4644-8D29-B6FBB34D8D47"
+                  },
+                  "creator_details": {
+                    "employee": {
+                      "last_name": "Jen",
+                      "read_only_full_name": "Mark Jen",
+                      "employee_token": "P8Ix5WfQRn8j5fBb_OQd",
+                      "first_name": "Mark"
+                    }
+                  },
+                  "created_at": {
+                    "date_string": "2017-09-13T11:53:49-04:00"
+                  }
+                }
+              ],
+              "created_at": {
+                "date_string": "2017-09-13T11:53:49-04:00"
+              },
+              "configuration": {
+                "selected_options": {
+                  "fee": [
+                    {
+                      "amounts": {
+                        "applied_money": {
+                          "amount": 64,
+                          "currency_code": "USD"
+                        }
+                      },
+                      "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "INCLUSIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "66KFWPHMOQLC2MWH4VRXCQT2",
+                        "tax_label_order": 3,
+                        "percentage": "5.55555",
+                        "name": "5.55555% High Precision Exclusive",
+                        "tax_type_id": "us_sales_tax"
+                      },
+                      "fee_line_item_id_pair": {
+                        "client_id": "0AF1B1DB-CD26-48F2-8C80-7358F15950D5",
+                        "server_id": "ff826198-d9a9-44a1-ad4a-88f5d1ab745b"
+                      },
+                      "created_at": {
+                        "date_string": "2017-09-13T11:53:32-04:00"
+                      }
+                    }
+                  ],
+                  "item_variation_details": {
+                    "display_variation_name": false,
+                    "read_only_display_details": {
+                      "price_money": {
+                        "amount": 1200,
+                        "currency_code": "USD"
+                      },
+                      "name": "Regular",
+                      "cogs_object_id": "3WG6CD5AGR7EUOB3AOOPBB3K",
+                      "sku": "817810021213"
+                    }
+                  }
+                },
+                "backing_type": "ITEM_VARIATION",
+                "item_variation_price_money": {
+                  "amount": 1200,
+                  "currency_code": "USD"
+                }
+              },
+              "itemization_id_pair": {
+                "client_id": "51E058A6-7430-44C0-98E6-208F43498798",
+                "server_id": "mpgfjm8Yt2AQzDREBRkE"
+              },
+              "amounts": {
+                "total_money": {
+                  "amount": 1200,
+                  "currency_code": "USD"
+                },
+                "item_variation_price_money": {
+                  "amount": 1200,
+                  "currency_code": "USD"
+                },
+                "item_variation_price_times_quantity_money": {
+                  "amount": 1200,
+                  "currency_code": "USD"
+                },
+                "discount_money": {
+                  "amount": 0,
+                  "currency_code": "USD"
+                },
+                "tax_money": {
+                  "amount": 64,
+                  "currency_code": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "merchant": {
+    "read_only_business_name": "[TEST] Honest Company",
+    "merchant_token": "DFYJC4EFN6W4D"
+  },
+  "square_product": "REGISTER",
+  "dates": {
+    "created_at": {
+      "date_string": "2017-09-13T16:01:14Z"
+    },
+    "completed_at": {
+      "date_string": "2017-09-13T16:01:14Z"
+    }
+  },
+  "bill_id_pair": {
+    "client_id": "bill:A7DA1F88-5DE6-4E83-B9F2-F69ED47E69DF",
+    "server_id": "62lmrNtUg57fhYoof46gmL0eV"
+  }
+}

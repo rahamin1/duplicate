@@ -1,0 +1,637 @@
+{
+  "business_categories" : [
+    {
+      "key" : "beauty_and_personal_care",
+      "description" : "Beauty and Personal Care",
+      "sub_categories" : [
+        {
+          "key" : "beauty_and_personal_care__beauty_salon",
+          "description" : "Beauty Salon"
+        },
+        {
+          "key" : "beauty_and_personal_care__hair_salon_barbershop",
+          "description" : "Hair Salon\/Barber Shop"
+        },
+        {
+          "key" : "beauty_and_personal_care__independent_stylist_barber",
+          "description" : "Independent Stylist\/Barber"
+        },
+        {
+          "key" : "beauty_and_personal_care__massage_therapist",
+          "description" : "Massage Therapist"
+        },
+        {
+          "key" : "beauty_and_personal_care__nail_salon",
+          "description" : "Nail Salon"
+        },
+        {
+          "key" : "beauty_and_personal_care__spa",
+          "description" : "Spa"
+        },
+        {
+          "key" : "beauty_and_personal_care__tanning_salon",
+          "description" : "Tanning Salon"
+        },
+        {
+          "key" : "beauty_and_personal_care__tattoo_piercing",
+          "description" : "Tattoo\/Piercing"
+        },
+        {
+          "key" : "beauty_and_personal_care__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Beauty and Personal Care service?"
+    },
+    {
+      "key" : "charities_education_and_membership",
+      "description" : "Charities, Education and Membership",
+      "sub_categories" : [
+        {
+          "key" : "charities_education_and_membership__charitable_organization",
+          "description" : "Charitable Organisation"
+        },
+        {
+          "key" : "charities_education_and_membership__child_care",
+          "description" : "Child Care"
+        },
+        {
+          "key" : "charities_education_and_membership__instructor_teacher",
+          "description" : "Instructor\/Teacher"
+        },
+        {
+          "key" : "charities_education_and_membership__membership_organization",
+          "description" : "Membership Organisation"
+        },
+        {
+          "key" : "charities_education_and_membership__political_organization",
+          "description" : "Political Organisation"
+        },
+        {
+          "key" : "charities_education_and_membership__religious_organization",
+          "description" : "Religious Organisation"
+        },
+        {
+          "key" : "charities_education_and_membership__school",
+          "description" : "School"
+        },
+        {
+          "key" : "charities_education_and_membership__tutor",
+          "description" : "Tutor"
+        },
+        {
+          "key" : "charities_education_and_membership__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Charity, Education or Membership?"
+    },
+    {
+      "key" : "food_and_drink",
+      "description" : "Food and Drink",
+      "sub_categories" : [
+        {
+          "key" : "food_and_drink__bakery",
+          "description" : "Bakery"
+        },
+        {
+          "key" : "food_and_drink__bar_club_lounge",
+          "description" : "Bar\/Club\/Lounge"
+        },
+        {
+          "key" : "food_and_drink__caterer",
+          "description" : "Caterer"
+        },
+        {
+          "key" : "food_and_drink__coffee_tea_shop",
+          "description" : "Coffee\/Tea Shop"
+        },
+        {
+          "key" : "food_and_drink__convenience_store",
+          "description" : "Corner Shop"
+        },
+        {
+          "key" : "food_and_drink__food_truck_cart",
+          "description" : "Food Truck\/Cart"
+        },
+        {
+          "key" : "food_and_drink__grocery_market",
+          "description" : "Grocery\/Market"
+        },
+        {
+          "key" : "food_and_drink__outdoor_markets",
+          "description" : "Outdoor Markets"
+        },
+        {
+          "key" : "food_and_drink__private_chef",
+          "description" : "Private Chef"
+        },
+        {
+          "key" : "food_and_drink__quick_service_restaurant",
+          "description" : "Quick Service Restaurant"
+        },
+        {
+          "key" : "food_and_drink__sit_down_restaurant",
+          "description" : "Sit-Down Restaurant"
+        },
+        {
+          "key" : "food_and_drink__specialty_shop",
+          "description" : "Specialty Shop"
+        },
+        {
+          "key" : "food_and_drink__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Food and Drink business?"
+    },
+    {
+      "key" : "health_care_and_fitness",
+      "description" : "Health Care and Fitness",
+      "sub_categories" : [
+        {
+          "key" : "health_care_and_fitness__acupuncture",
+          "description" : "Acupuncture"
+        },
+        {
+          "key" : "health_care_and_fitness__alternative_medicine",
+          "description" : "Alternative Medicine"
+        },
+        {
+          "key" : "health_care_and_fitness__care_giver",
+          "description" : "Caregiver"
+        },
+        {
+          "key" : "health_care_and_fitness__chiropractor",
+          "description" : "Chiropractor"
+        },
+        {
+          "key" : "health_care_and_fitness__dentist_orthodontist",
+          "description" : "Dentist\/Orthodontist"
+        },
+        {
+          "key" : "health_care_and_fitness__gym_health_club",
+          "description" : "Gym\/Health Club"
+        },
+        {
+          "key" : "health_care_and_fitness__massage_therapist",
+          "description" : "Massage Therapist"
+        },
+        {
+          "key" : "health_care_and_fitness__medical_practitioner",
+          "description" : "Medical Practitioner"
+        },
+        {
+          "key" : "health_care_and_fitness__optometrist_laser_eye_surgery",
+          "description" : "Optometrist\/Eye Care"
+        },
+        {
+          "key" : "health_care_and_fitness__personal_trainer",
+          "description" : "Personal Trainer"
+        },
+        {
+          "key" : "health_care_and_fitness__psychiatrist",
+          "description" : "Psychiatrist"
+        },
+        {
+          "key" : "health_care_and_fitness__therapist",
+          "description" : "Therapist"
+        },
+        {
+          "key" : "health_care_and_fitness__veterinary_services",
+          "description" : "Veterinary Services"
+        },
+        {
+          "key" : "health_care_and_fitness__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Health Care and Fitness service?"
+    },
+    {
+      "key" : "home_and_repair",
+      "description" : "Home and Repair",
+      "sub_categories" : [
+        {
+          "key" : "home_and_repair__automotive_services",
+          "description" : "Automotive Services"
+        },
+        {
+          "key" : "home_and_repair__carpet_cleaning",
+          "description" : "Carpet Cleaning"
+        },
+        {
+          "key" : "home_and_repair__cleaning",
+          "description" : "Cleaning"
+        },
+        {
+          "key" : "home_and_repair__clothing_and_shoe_repair_alterations",
+          "description" : "Clothing\/Shoe Repair\/Alterations"
+        },
+        {
+          "key" : "home_and_repair__computer_electronics_and_appliance_repair",
+          "description" : "Computer\/Electronics\/Appliances"
+        },
+        {
+          "key" : "home_and_repair__dry_cleaning_and_laundry",
+          "description" : "Dry Cleaning and Laundry"
+        },
+        {
+          "key" : "home_and_repair__electrical_services",
+          "description" : "Electrical Services"
+        },
+        {
+          "key" : "home_and_repair__flooring",
+          "description" : "Flooring"
+        },
+        {
+          "key" : "home_and_repair__junk_removal",
+          "description" : "Garbage Removal"
+        },
+        {
+          "key" : "home_and_repair__general_contracting",
+          "description" : "General Contracting"
+        },
+        {
+          "key" : "home_and_repair__heating_and_air_conditioning",
+          "description" : "Heating and Air Conditioning"
+        },
+        {
+          "key" : "home_and_repair__installation_services",
+          "description" : "Installation Services"
+        },
+        {
+          "key" : "home_and_repair__landscaping",
+          "description" : "Landscaping"
+        },
+        {
+          "key" : "home_and_repair__locksmith_services",
+          "description" : "Locksmith Services"
+        },
+        {
+          "key" : "home_and_repair__painting",
+          "description" : "Painting"
+        },
+        {
+          "key" : "home_and_repair__pest_control",
+          "description" : "Pest Control"
+        },
+        {
+          "key" : "home_and_repair__plumbing",
+          "description" : "Plumbing"
+        },
+        {
+          "key" : "home_and_repair__moving",
+          "description" : "Removals"
+        },
+        {
+          "key" : "home_and_repair__roofing",
+          "description" : "Roofing"
+        },
+        {
+          "key" : "home_and_repair__watch_jewelry_repair",
+          "description" : "Watch\/Jewellery Repair"
+        },
+        {
+          "key" : "home_and_repair__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Home and Repair business?"
+    },
+    {
+      "key" : "leisure_and_entertainment",
+      "description" : "Leisure and Entertainment",
+      "sub_categories" : [
+        {
+          "key" : "leisure_and_entertainment__events_festivals",
+          "description" : "Events\/Festivals"
+        },
+        {
+          "key" : "leisure_and_entertainment__movies_film",
+          "description" : "Movies\/Film"
+        },
+        {
+          "key" : "leisure_and_entertainment__museum_cultural",
+          "description" : "Museum\/Cultural"
+        },
+        {
+          "key" : "leisure_and_entertainment__music",
+          "description" : "Music"
+        },
+        {
+          "key" : "leisure_and_entertainment__performing_arts",
+          "description" : "Performing Arts"
+        },
+        {
+          "key" : "leisure_and_entertainment__sporting_events",
+          "description" : "Sporting Events"
+        },
+        {
+          "key" : "leisure_and_entertainment__sports_recreation",
+          "description" : "Sports and Recreation"
+        },
+        {
+          "key" : "leisure_and_entertainment__tourism",
+          "description" : "Tourism"
+        },
+        {
+          "key" : "leisure_and_entertainment__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Leisure and Entertainment business?"
+    },
+    {
+      "key" : "professional_services",
+      "description" : "Professional Services",
+      "sub_categories" : [
+        {
+          "key" : "professional_services__accounting",
+          "description" : "Accounting"
+        },
+        {
+          "key" : "professional_services__child_care",
+          "description" : "Child Care"
+        },
+        {
+          "key" : "professional_services__consulting",
+          "description" : "Consulting"
+        },
+        {
+          "key" : "professional_services__delivery",
+          "description" : "Delivery"
+        },
+        {
+          "key" : "professional_services__design",
+          "description" : "Design"
+        },
+        {
+          "key" : "professional_services__interior_design",
+          "description" : "Interior Design"
+        },
+        {
+          "key" : "professional_services__legal_services",
+          "description" : "Legal Services"
+        },
+        {
+          "key" : "professional_services__marketing_advertising",
+          "description" : "Marketing\/Advertising"
+        },
+        {
+          "key" : "professional_services__nanny_services",
+          "description" : "Nanny Services"
+        },
+        {
+          "key" : "professional_services__notary_services",
+          "description" : "Notary Services"
+        },
+        {
+          "key" : "professional_services__photography",
+          "description" : "Photography"
+        },
+        {
+          "key" : "professional_services__printing_services",
+          "description" : "Printing Services"
+        },
+        {
+          "key" : "professional_services__real_estate",
+          "description" : "Real Estate"
+        },
+        {
+          "key" : "professional_services__software_development",
+          "description" : "Software Development"
+        },
+        {
+          "key" : "professional_services__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Professional Service?"
+    },
+    {
+      "key" : "retail",
+      "description" : "Retail",
+      "sub_categories" : [
+        {
+          "key" : "retail__art_photo_and_film",
+          "description" : "Art, Photo and Film"
+        },
+        {
+          "key" : "retail__books_mags_music_and_video",
+          "description" : "Books, Mags, Music and Video"
+        },
+        {
+          "key" : "retail__clothing_and_accessories",
+          "description" : "Clothing and Accessories"
+        },
+        {
+          "key" : "retail__convenience_store",
+          "description" : "Corner Shop"
+        },
+        {
+          "key" : "retail__electronics",
+          "description" : "Electronics"
+        },
+        {
+          "key" : "retail__eyewear",
+          "description" : "Eyewear"
+        },
+        {
+          "key" : "retail__flowers_and_gifts",
+          "description" : "Flowers and Gifts"
+        },
+        {
+          "key" : "retail__furniture_home_goods",
+          "description" : "Furniture\/Home Goods"
+        },
+        {
+          "key" : "retail__grocery_market",
+          "description" : "Grocery\/Market"
+        },
+        {
+          "key" : "retail__hardware_store",
+          "description" : "Hardware Store"
+        },
+        {
+          "key" : "retail__hobby_shop",
+          "description" : "Hobby Shop"
+        },
+        {
+          "key" : "retail__jewelry_and_watches",
+          "description" : "Jewellery and Watches"
+        },
+        {
+          "key" : "retail__office_supply",
+          "description" : "Office Supply"
+        },
+        {
+          "key" : "retail__outdoor_markets",
+          "description" : "Outdoor Markets"
+        },
+        {
+          "key" : "retail__pet_store",
+          "description" : "Pet Store"
+        },
+        {
+          "key" : "retail__specialty_shop",
+          "description" : "Specialty Shop"
+        },
+        {
+          "key" : "retail__sporting_goods",
+          "description" : "Sporting Goods"
+        },
+        {
+          "key" : "retail__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Retail business?"
+    },
+    {
+      "key" : "transportation",
+      "description" : "Transportation",
+      "sub_categories" : [
+        {
+          "key" : "transportation__bus",
+          "description" : "Bus"
+        },
+        {
+          "key" : "transportation__delivery",
+          "description" : "Delivery"
+        },
+        {
+          "key" : "transportation__limousine",
+          "description" : "Limousine"
+        },
+        {
+          "key" : "transportation__town_car",
+          "description" : "Limousine"
+        },
+        {
+          "key" : "transportation__private_shuttle",
+          "description" : "Private Shuttle"
+        },
+        {
+          "key" : "transportation__moving",
+          "description" : "Removals"
+        },
+        {
+          "key" : "transportation__taxi",
+          "description" : "Taxi"
+        },
+        {
+          "key" : "transportation__other",
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Transportation service?"
+    },
+    {
+      "key" : "casual_use",
+      "description" : "Casual Use",
+      "sub_categories" : [
+        {
+          "key" : "casual_use__events_festivals",
+          "skip_business_info" : true,
+          "description" : "Events\/Festivals"
+        },
+        {
+          "key" : "casual_use__miscellaneous_goods",
+          "skip_business_info" : true,
+          "description" : "Miscellaneous Goods"
+        },
+        {
+          "key" : "casual_use__miscellaneous_services",
+          "skip_business_info" : true,
+          "description" : "Miscellaneous Services"
+        },
+        {
+          "key" : "casual_use__outdoor_markets",
+          "skip_business_info" : true,
+          "description" : "Outdoor Markets"
+        },
+        {
+          "key" : "casual_use__other",
+          "skip_business_info" : true,
+          "description" : "Other"
+        }
+      ],
+      "sub_categories_title" : "What type of Casual Use?"
+    }
+  ],
+  "naics_data" : [
+
+  ],
+  "employee_counts" : [
+    {
+      "key" : "1",
+      "description" : "1"
+    },
+    {
+      "key" : "2-4",
+      "description" : "2-4"
+    },
+    {
+      "key" : "5-9",
+      "description" : "5-9"
+    },
+    {
+      "key" : "10-24",
+      "description" : "10-24"
+    },
+    {
+      "key" : "25-49",
+      "description" : "25-49"
+    },
+    {
+      "key" : "50+",
+      "description" : "50 or more"
+    }
+  ],
+  "success" : true,
+  "shipping_message" : "Your reader will be delivered within 10 days.",
+  "estimated_revenue" : [
+    {
+      "key" : "0-10000",
+      "description" : "$0 – $10,000"
+    },
+    {
+      "key" : "10000-50000",
+      "description" : "$10,000 – $50,000"
+    },
+    {
+      "key" : "50000-100000",
+      "description" : "$50,000 – $100,000"
+    },
+    {
+      "key" : "100000-250000",
+      "description" : "$100,000 – $250,000"
+    },
+    {
+      "key" : "250000-500000",
+      "description" : "$250,000 – $500,000"
+    },
+    {
+      "key" : "500000-1000000",
+      "description" : "$500,000 – $1M"
+    },
+    {
+      "key" : "1000000-5000000",
+      "description" : "$1M – $5M"
+    },
+    {
+      "key" : "5000000-10000000",
+      "description" : "$5M – $10M"
+    },
+    {
+      "key" : "10000000-20000000",
+      "description" : "$10M – $20M"
+    },
+    {
+      "key" : "20000000+",
+      "description" : "$20M and above"
+    }
+  ],
+  "ida_quiz_timeout_seconds" : 600
+}

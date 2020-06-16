@@ -1,0 +1,150 @@
+/* The subtitle string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedSubtitle" = "La transaction a été annulée.";
+
+/* The title string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedTitle" = "Paiement non finalisé";
+
+/* The title string displayed when a payment has been approved. */
+"R2PaymentEngineApprovedTitle" = "Approuvé";
+
+/* The title or subtitle string displayed when a swipe is being authorized with the server */
+"R2PaymentEngineAuthorizing" = "Autorisation";
+
+/* The subtitle string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedSubtitle" = "Veuillez essayer avec une autre carte.";
+
+/* The title string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedTitle" = "Carte non prise en charge";
+
+/* The subtitle string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedSubtitle" = "La transaction a été annulée.";
+
+/* The title string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedTitle" = "Lecteur déconnecté";
+
+/* The subtitle string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedSubtitle" = "Veuillez insérer la carte pour continuer";
+
+/* The title string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedTitle" = "Carte retirée";
+
+/* The subtitle string displayed when a dipped card cannot be read. */
+"R2PaymentEngineChipCouldNotBeReadSubtitle" = "Erreur de lecture de la puce.";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardSubtitle" = "Un problème est survenu avec cette carte. Veuillez réessayer ou utiliser une autre carte.";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardTitle" = "Insérer la carte";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardSubtitle" = "Un problème est survenu avec cette carte. Veuillez réessayer ou utiliser une autre carte.";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardTitle" = "Essayer avec une autre carte";
+
+/* The error message when a payment has been declined by a payment card after being authorized by the server. */
+"R2PaymentEngineDeclinedByCardError" = "Le paiement a été refusé par la carte de paiement.";
+
+/* The title string displayed when a payment has been declined. */
+"R2PaymentEngineDeclinedTitle" = "Refusée";
+
+/* A subtitle string displayed when a dip payment has been declined by the smart card. */
+"R2PaymentEngineDipDeclinedByCardSubtitle" = "Échec de traitement de la transaction.";
+
+/* The title string displayed when a card has been inserted and is being read */
+"R2PaymentEngineDoNotRemoveCardTitle" = "Ne pas retirer la carte";
+
+/* A generic subtitle string displayed when a payment has been declined and no more detailed information is available. */
+"R2PaymentEngineGenericDeclineSubtitle" = "Veuillez utiliser une autre carte.";
+
+/* The subtitle string displayed when a swiped card must be inserted. */
+"R2PaymentEngineInsertCardSubtitle" = "La carte à puce doit être insérée.";
+
+/* The title string displayed when a swipe payment has been approved. */
+"R2PaymentEngineInsertCardTitle" = "Veuillez insérer la carte";
+
+/* The subtitle string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardSubtitle" = "Un problème est survenu avec cette carte. Veuillez réessayer ou utiliser une autre carte.";
+
+/* The title string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardTitle" = "Insérer cette carte ou en essayer une autre";
+
+/* The subtitle string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalSubtitle" = "Retirer la carte et réessayer.";
+
+/* The title string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalTitle" = "Retirer la carte à puce";
+
+/* The subtitle string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableSubtitle" = "Échec de la connexion Internet";
+
+/* The title string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableTitle" = "Erreur de connexion";
+
+/* The subtitle string displayed when a card has been inserted and is being read */
+"R2PaymentEnginePreparingPaymentSubtitle" = "Préparation du paiement";
+
+/* The subtitle string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorSubtitle" = "Échec de lecture de la carte.";
+
+/* The title string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorTitle" = "Repasser la carte";
+
+/* The subtitle string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardSubtitle" = "Le lecteur a détecté plus d’une carte dans cette zone.";
+
+/* The title string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardTitle" = "Présenter une seule carte";
+
+/* The title string displayed when payment has been approved by the server and is being processed by the reader. */
+"R2PaymentEngineProcessingTitle" = "Traitement en cours";
+
+/* The title string displayed when a card has been read and may be removed */
+"R2PaymentEngineRemoveCardTitle" = "Retirer la carte";
+
+/* The title string displayed when the reader responds with a .requestCardReinsertion event. */
+"R2PaymentEngineRequestCardReinsertionTitle" = "Veuillez réinsérer la carte";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeSchemeSubtitle" = "Square ne prend pas en charge l’insertion de cette carte à puce pour le moment.";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeTechnicalSubtitle" = "Erreur de lecture de la puce.";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message. */
+"R2PaymentEngineRequestCardSwipeTitle" = "Veuillez glisser la carte";
+
+/* The subtitle string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionSubtitle" = "Retournez à l’écran de paiement pour passer la carte si elle prend en charge les paiements sans contact ou essayez un autre mode de paiement.";
+
+/* The title string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionTitle" = "Annuler le paiement et passer la carte";
+
+/* The subtitle string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsSubtitle" = "Action requise sur l’appareil de paiement";
+
+/* The title string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsTitle" = "Suivre les instructions affichées sur le téléphone";
+
+/* The subtitle string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedSubtitle" = "Glissez la carte d’un geste vif";
+
+/* The title string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedTitle" = "Carte non débitée";
+
+/* A subtitle string displayed when a tap payment has been declined by the smart card. */
+"R2PaymentEngineTapDeclinedByCardSubtitle" = "Échec de la transaction. Veuillez demander au client de vérifier son téléphone ou d’appeler l’émetteur de sa carte. ";
+
+/* The subtitle string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorSubtitle" = "Erreur inattendue de Square. Veuillez essayer de nouveau ou communiquer avec l’assistance si le problème persiste.";
+
+/* The title string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorTitle" = "Échec du paiement";
+
+/* The subtitle string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPaySubtitle" = "Déverrouiller l’appareil de paiement et réessayer.";
+
+/* The title string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPayTitle" = "Déverrouiller le téléphone pour payer";
+

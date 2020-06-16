@@ -1,0 +1,24 @@
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "28"; */
+"28.normalTitle" = "Continue to Point of Sale";
+
+/* Class = "UIButton"; normalTitle = "See compatible Hardware"; ObjectID = "29"; */
+"29.normalTitle" = "See compatible Hardware";
+
+/* Class = "UILabel"; text = "Connect your\nhardware at any time."; ObjectID = "30"; */
+"30.text" = "Connect your hardware at any time.";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "32"; */
+"32.text" = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers.";
+
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "36"; */
+"36.normalTitle" = "Continue to Point of Sale";
+
+/* Class = "UIButton"; normalTitle = "Go to Hardware Settings"; ObjectID = "37"; */
+"37.normalTitle" = "Go to Hardware Settings";
+
+/* Class = "UILabel"; text = "Manage your hardware at any time."; ObjectID = "38"; */
+"38.text" = "Manage your hardware at any time.";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "40"; */
+"40.text" = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers.";
+

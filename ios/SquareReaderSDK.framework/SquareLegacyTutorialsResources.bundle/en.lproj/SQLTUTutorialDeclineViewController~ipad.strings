@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "You can visit this tutorial later in Support under Tutorials and Tours."; ObjectID = "1Ee-6L-Xxz"; */
+"1Ee-6L-Xxz.text" = "You can visit this tutorial later in Support under Tutorials and Tours.";
+
+/* Class = "UILabel"; text = "Don’t need help?"; ObjectID = "amR-Lh-cOj"; */
+"amR-Lh-cOj.text" = "Don’t need help?";
+
+/* Class = "UIButton"; normalTitle = "End walkthrough"; ObjectID = "aSQ-Kb-F8c"; */
+"aSQ-Kb-F8c.normalTitle" = "End walkthrough";
+
+/* Class = "UIButton"; normalTitle = "Continue walkthrough"; ObjectID = "OYG-qc-3HE"; */
+"OYG-qc-3HE.normalTitle" = "Continue walkthrough";
+

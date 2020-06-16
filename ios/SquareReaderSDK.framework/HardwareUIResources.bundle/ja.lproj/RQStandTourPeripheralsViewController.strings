@@ -1,0 +1,21 @@
+/* Class = "UILabel"; text = "Welcome to\nSquare Stand."; ObjectID = "20"; */
+"20.text" = "ようこそ、\r\nSquare Standへ。";
+
+/* Class = "UILabel"; text = "Your stand is connected. Plug hardware devices into the accessories hub to connect them to Point of Sale."; ObjectID = "22"; */
+"22.text" = "Square Standが接続されました。周辺機器をPOSレジに接続するには、アクセサリハブにプラグを差し込みます。";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "33"; */
+"33.normalTitle" = "続行";
+
+/* Class = "UILabel"; text = "To connect hardware devices, insert your iPad into the stand and connect the accessories hub and power supply."; ObjectID = "59"; */
+"59.text" = "周辺機器を接続するには、iPadをスタンドに装着した後、アクセサリハブと電源ケーブルを接続する必要があります。";
+
+/* Class = "UILabel"; text = "Connect iPad to Stand"; ObjectID = "60"; */
+"60.text" = "iPadをSquare Standに接続する";
+
+/* Class = "UILabel"; text = "Your stand is connected. To connect hardware devices, plug the accessories hub into the stand and a power supply."; ObjectID = "62"; */
+"62.text" = "Square Standに接続しました。周辺機器を接続するには、アクセサリハブをスタンドに接続し、プラグを電源ケーブルに差し込みます。";
+
+/* Class = "UILabel"; text = "Connect Stand to Power"; ObjectID = "63"; */
+"63.text" = "スタンドを電源に接続してください";
+

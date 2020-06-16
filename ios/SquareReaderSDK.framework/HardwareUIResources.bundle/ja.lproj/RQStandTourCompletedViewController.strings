@@ -1,0 +1,24 @@
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "28"; */
+"28.normalTitle" = "POSレジを続行する";
+
+/* Class = "UIButton"; normalTitle = "See compatible Hardware"; ObjectID = "29"; */
+"29.normalTitle" = "互換性のある周辺機器を見る";
+
+/* Class = "UILabel"; text = "Connect your\nhardware at any time."; ObjectID = "30"; */
+"30.text" = "リーダー/周辺機器は\nいつでも接続できます。";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "32"; */
+"32.text" = "周辺機器の接続ステータス、接続済み端末のテスト、レシートおよびオーダーシートプリンターは、[設定] から管理できます。";
+
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "36"; */
+"36.normalTitle" = "POSレジを続行する";
+
+/* Class = "UIButton"; normalTitle = "Go to Hardware Settings"; ObjectID = "37"; */
+"37.normalTitle" = "周辺機器の設定へ";
+
+/* Class = "UILabel"; text = "Manage your hardware at any time."; ObjectID = "38"; */
+"38.text" = "周辺機器の管理も手元で簡単に。";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "40"; */
+"40.text" = "周辺機器の接続ステータス、接続済み端末のテスト、レシートおよびオーダーシートプリンターは、[設定] から管理できます。";
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clockout Workday Report</title>
+        <meta name="viewport" content="width=320"/>
+        <link href="clockoutWorkdayReport.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body class="clock-shift-body">
+        <div class="header-title">
+            <div class="label small bold"></div>
+        </div>
+
+        <div class="logo-container"></div>
+
+        <div class="employment-data">
+            <div class="person-name bold"></div>
+            <div class="total-hours bold"></div>
+            <div class="date-location">
+                <div class="date bold"></div>
+                <div class="location"></div>
+            </div>
+        </div>
+
+        <div class="clocktime container">
+            <div class="black-bar">
+                <div class="title bold"></div>
+            </div>
+            <div class="unit-wrapper">
+                <div class="job-title-total-hour line">
+                    <div class="left label bold"></div>
+                    <div class="right value bold"></div>
+                </div>
+                <div class="start line">
+                    <div class="left label"></div>
+                    <div class="right">
+                        <div class="date-value"></div>
+                        <div class="time-value"></div>
+                    </div>
+
+                </div>
+                <div class="end line">
+                    <div class="left label"></div>
+                    <div class="right">
+                        <div class="date-value"></div>
+                        <div class="time-value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="totals container">
+            <div class="black-bar">
+                <div class="title bold"></div>
+            </div>
+            <div class="unit-wrapper">
+                <div class="line">
+                    <div class="left label"></div>
+                    <div class="right value bold"></div>
+                </div>
+                <div class="breaks line">
+                    <div class="left label"></div>
+                    <div class="right value bold"></div>
+                </div>
+                <hr class="black-line-1px">
+                <div class="paid line">
+                    <div class="left label"></div>
+                    <div class="right value bold"></div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="black-line-1px spacing-large-1">
+
+        <div class="printed-receipt-date small">
+        </div>
+    </body>
+</html>

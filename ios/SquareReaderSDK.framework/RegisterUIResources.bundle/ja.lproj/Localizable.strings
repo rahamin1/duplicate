@@ -1,0 +1,48 @@
+/* UIBarButtonSystemItemAction title */
+"FQBarButtonSystemItemActionTitle" = "作成/編集/削除";
+
+/* UIBarButtonSystemItemAdd title */
+"FQBarButtonSystemItemAddTitle" = "追加";
+
+/* UIBarButtonSystemItemCancel title */
+"FQBarButtonSystemItemCancelTitle" = "キャンセル";
+
+/* UIBarButtonSystemItemDone title */
+"FQBarButtonSystemItemDoneTitle" = "完了";
+
+/* UIBarButtonSystemItemEdit title */
+"FQBarButtonSystemItemEditTitle" = "編集";
+
+/* UIBarButtonSystemItemRedo title */
+"FQBarButtonSystemItemRedoTitle" = "やり直す";
+
+/* UIBarButtonSystemItemSave title */
+"FQBarButtonSystemItemSaveTitle" = "保存";
+
+/* UIBarButtonSystemItemTrash title */
+"FQBarButtonSystemItemTrashTitle" = "削除";
+
+/* UIBarButtonSystemItemUndo title */
+"FQBarButtonSystemItemUndoTitle" = "元に戻す";
+
+/* The accessibility text for the navigation bar add button. */
+"ImposterNavigationBarAddButton" = "追加";
+
+/* The accessibility text for the navigation bar back button. */
+"ImposterNavigationBarBackButton" = "戻る";
+
+/* The accessibility text for the navigation bar cancel button. */
+"ImposterNavigationBarCancelButton" = "キャンセル";
+
+/* The accessibility text for the navigation bar back button. */
+"NavigationBarBackButton" = "戻る";
+
+/* Accessibility label for red confirm delete button that appears in a table view cell after selecting the delete button */
+"RGUITableViewCellConfirmDeleteButtonAccessibilityLabel" = "削除を確認";
+
+/* Accessibility label for circular red delete button with minus sign that appears in a table view cell. */
+"RGUITableViewCellDeleteButtonAccessibilityLabel" = "削除";
+
+/* Format String for the accessibility label of a table view section header. The first argument is a primary title and the second a subtitle. e.g. \"Mdifiers, Select One\" where Modifiers is the title and Select One the subtitle. */
+"RGUITableViewSectionHeaderViewAccessibilityLabelFormatString" = "%1$@、%2$@";
+

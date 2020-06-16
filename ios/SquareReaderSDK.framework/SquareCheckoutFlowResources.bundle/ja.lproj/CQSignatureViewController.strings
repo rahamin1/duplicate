@@ -1,0 +1,6 @@
+/* Class = "UILabel"; accessibilityLabel = "I agree to pay the above total amount according to my card issuer agreement."; ObjectID = "22"; Note = "<DNL>"; */
+"22.accessibilityLabel" = "私は、カード発行会社の規約に従って上記の合計金額を支払うことに同意します。";
+
+/* Class = "UIView"; accessibilityLabel = "Signature Pad"; ObjectID = "64"; */
+"64.accessibilityLabel" = "サインパッド";
+

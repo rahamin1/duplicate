@@ -1,0 +1,12 @@
+/* Class = "UITextField"; placeholder = "3141 5926 5358 9793"; ObjectID = "60"; */
+"60.placeholder" = "3141 5926 5358 9793";
+
+/* Class = "UITextField"; placeholder = "CVV"; ObjectID = "62"; */
+"62.placeholder" = "セキュリティコード";
+
+/* Class = "UITextField"; placeholder = "ZIP"; ObjectID = "63"; */
+"63.placeholder" = "ZIP";
+
+/* Class = "UITextField"; placeholder = "MM/YY"; ObjectID = "72"; */
+"72.placeholder" = "MM/YY";
+

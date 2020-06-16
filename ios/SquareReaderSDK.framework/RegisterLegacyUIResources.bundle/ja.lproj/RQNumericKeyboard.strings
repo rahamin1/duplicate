@@ -1,0 +1,198 @@
+/* Class = "UIButton"; normalTitle = "."; ObjectID = "129"; */
+"129.normalTitle" = ".";
+
+/* Class = "UIButton"; normalTitle = "."; ObjectID = "131"; */
+"131.normalTitle" = ".";
+
+/* Class = "UIButton"; accessibilityLabel = "Double 0"; ObjectID = "139"; */
+"139.accessibilityLabel" = "00";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "139"; */
+"139.normalTitle" = "00";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "141"; */
+"141.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "141"; */
+"141.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "Double 0"; ObjectID = "143"; */
+"143.accessibilityLabel" = "00";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "143"; */
+"143.normalTitle" = "00";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "146"; */
+"146.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "146"; */
+"146.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "1"; ObjectID = "65"; */
+"65.accessibilityLabel" = "1";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "65"; */
+"65.normalTitle" = "1";
+
+/* Class = "UIButton"; accessibilityLabel = "2"; ObjectID = "66"; */
+"66.accessibilityLabel" = "2";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "66"; */
+"66.normalTitle" = "2";
+
+/* Class = "UIButton"; accessibilityLabel = "3"; ObjectID = "67"; */
+"67.accessibilityLabel" = "3";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "67"; */
+"67.normalTitle" = "3";
+
+/* Class = "UIButton"; accessibilityLabel = "Delete"; ObjectID = "68"; */
+"68.accessibilityLabel" = "削除";
+
+/* Class = "UIButton"; accessibilityLabel = "4"; ObjectID = "69"; */
+"69.accessibilityLabel" = "4";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "69"; */
+"69.normalTitle" = "4";
+
+/* Class = "UIButton"; accessibilityLabel = "5"; ObjectID = "70"; */
+"70.accessibilityLabel" = "5";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "70"; */
+"70.normalTitle" = "5";
+
+/* Class = "UIButton"; accessibilityLabel = "6"; ObjectID = "71"; */
+"71.accessibilityLabel" = "6";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "71"; */
+"71.normalTitle" = "6";
+
+/* Class = "UIButton"; accessibilityLabel = "7"; ObjectID = "72"; */
+"72.accessibilityLabel" = "7";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "72"; */
+"72.normalTitle" = "7";
+
+/* Class = "UIButton"; accessibilityLabel = "8"; ObjectID = "73"; */
+"73.accessibilityLabel" = "8";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "73"; */
+"73.normalTitle" = "8";
+
+/* Class = "UIButton"; accessibilityLabel = "9"; ObjectID = "74"; */
+"74.accessibilityLabel" = "9";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "74"; */
+"74.normalTitle" = "9";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "75"; */
+"75.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "75"; */
+"75.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "Charge"; ObjectID = "76"; */
+"76.accessibilityLabel" = "お会計\n";
+
+/* Class = "UIButton"; normalTitle = "Charge "; ObjectID = "76"; */
+"76.normalTitle" = "お会計";
+
+/* Class = "UIButton"; accessibilityLabel = "Dismiss"; ObjectID = "77"; */
+"77.accessibilityLabel" = "閉じる";
+
+/* Class = "UIButton"; accessibilityLabel = "ABC"; ObjectID = "78"; */
+"78.accessibilityLabel" = "ABC";
+
+/* Class = "UIButton"; normalTitle = "ABC"; ObjectID = "78"; */
+"78.normalTitle" = "ABC";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "79"; */
+"79.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "79"; */
+"79.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "1"; ObjectID = "80"; */
+"80.accessibilityLabel" = "1";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "80"; */
+"80.normalTitle" = "1";
+
+/* Class = "UIButton"; accessibilityLabel = "2"; ObjectID = "81"; */
+"81.accessibilityLabel" = "2";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "81"; */
+"81.normalTitle" = "2";
+
+/* Class = "UIButton"; accessibilityLabel = "3"; ObjectID = "82"; */
+"82.accessibilityLabel" = "3";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "82"; */
+"82.normalTitle" = "3";
+
+/* Class = "UIButton"; accessibilityLabel = "4"; ObjectID = "83"; */
+"83.accessibilityLabel" = "4";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "83"; */
+"83.normalTitle" = "4";
+
+/* Class = "UIButton"; accessibilityLabel = "5"; ObjectID = "84"; */
+"84.accessibilityLabel" = "5";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "84"; */
+"84.normalTitle" = "5";
+
+/* Class = "UIButton"; accessibilityLabel = "6"; ObjectID = "85"; */
+"85.accessibilityLabel" = "6";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "85"; */
+"85.normalTitle" = "6";
+
+/* Class = "UIButton"; accessibilityLabel = "7"; ObjectID = "86"; */
+"86.accessibilityLabel" = "7";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "86"; */
+"86.normalTitle" = "7";
+
+/* Class = "UIButton"; accessibilityLabel = "8"; ObjectID = "87"; */
+"87.accessibilityLabel" = "8";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "87"; */
+"87.normalTitle" = "8";
+
+/* Class = "UIButton"; accessibilityLabel = "9"; ObjectID = "88"; */
+"88.accessibilityLabel" = "9";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "88"; */
+"88.normalTitle" = "9";
+
+/* Class = "UIButton"; accessibilityLabel = "ABC"; ObjectID = "89"; */
+"89.accessibilityLabel" = "ABC";
+
+/* Class = "UIButton"; normalTitle = "ABC"; ObjectID = "89"; */
+"89.normalTitle" = "ABC";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "90"; */
+"90.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "90"; */
+"90.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "0"; ObjectID = "91"; */
+"91.accessibilityLabel" = "0";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "91"; */
+"91.normalTitle" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "Delete"; ObjectID = "92"; */
+"92.accessibilityLabel" = "削除";
+
+/* Class = "UIButton"; accessibilityLabel = "Charge"; ObjectID = "93"; */
+"93.accessibilityLabel" = "お会計\n";
+
+/* Class = "UIButton"; normalTitle = "Charge"; ObjectID = "93"; */
+"93.normalTitle" = "お会計\n";
+
+/* Class = "UIButton"; accessibilityLabel = "Dismiss"; ObjectID = "94"; */
+"94.accessibilityLabel" = "閉じる";
+

@@ -1,0 +1,6 @@
+/* Class = "UILabel"; text = "You do not have permission to access this area or take this action."; ObjectID = "EGE-z5-Ohl"; */
+"EGE-z5-Ohl.text" = "You do not have permission to access this area or take this action.";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "ySV-vp-066"; */
+"ySV-vp-066.normalTitle" = "Dismiss";
+

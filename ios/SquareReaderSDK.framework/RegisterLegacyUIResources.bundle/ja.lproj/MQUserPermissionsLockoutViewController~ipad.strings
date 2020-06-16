@@ -1,0 +1,6 @@
+/* Class = "UILabel"; text = "You do not have permission to access this area or take this action."; ObjectID = "4"; */
+"4.text" = "このエリアまたは操作にアクセスする権限がありません。";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "5"; */
+"5.normalTitle" = "閉じる";
+

@@ -1,0 +1,105 @@
+﻿/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyDefault" = "Return";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyDone" = "Done";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyEmergencyCall" = "Emergency Call";
+
+/* Return key name on the keyboard when no name is specified. */
+"CustomKeyboardReturnKeyEmpty" = "Return";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyGo" = "Go";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyGoogle" = "Google";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyJoin" = "Join";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyNext" = "Next";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyRoute" = "Route";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeySearch" = "Search";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeySend" = "Send";
+
+/* Return key name on the keyboard. */
+"CustomKeyboardReturnKeyYahoo" = "Yahoo";
+
+/* Backspace button label on the keyboard. */
+"NumericKeyboardDeleteButtonTitle" = "Delete";
+
+/* Dismiss keyboard button label on the keyboard. */
+"NumericKeyboardDismissKeyboardButtonTitle" = "Dismiss Keyboard";
+
+/* Switch to alphabetical keyboard button label on the keyboard. */
+"NumericKeyboardSwitchToAlphabeticKeyboardButtonTitle" = "Alphabetical Keyboard";
+
+/* Accessibility label for close button on the Fee Tutorial */
+"PaginatedContainerViewControllerCloseButton" = "Cancel";
+
+/* Accessibility label for info button on the Fee Tutorial */
+"PaginatedContainerViewControllerInfoButton" = "Help";
+
+/* Format string for loading percentage. %.0f represents current loading percentage out of 100 */
+"PermissionFlowLoadingPercentage" = "%.0f%%";
+
+/* Cancel button label on an alert popup. */
+"SQUIAlertActionCancel" = "Cancel";
+
+/* OK button label on an alert popup. */
+"SQUIAlertActionOK" = "OK";
+
+/* The format string used for displaying the measuring unit in a SQUIDecimalQuantityField, where the label appears to the side of the input number. A space in the format string provides typographical balance when the number is flush against the label. The parameter is the abbreviation of the measurement unit. */
+"SQUIDecimalQuantityField.UnitsFormatString" = " %@";
+
+/* Accessibility label describing a toggle switch button. */
+"SQUIFormToggleRowSwitchAccessibilityLabel" = "%@ Switch Button";
+
+/* The two-character abbreviation for an unknown customer name */
+"SQUIInitialsButtonUnknownName" = "UN";
+
+/* Button title for accepting the keyed-in/selected value for an input field. */
+"SQUIInputAccessoryDoneToolbar.DoneButton.Title" = "Done";
+
+/* Title for hours label when 0 or > 1 hours is selected. */
+"SQUIInputDurationPickerHoursTitlePlural" = "hours";
+
+/* Title for hours label when 1 hour is selected. */
+"SQUIInputDurationPickerHoursTitleSingular" = "hour";
+
+/* Title for accessory button to dismiss a input duration picker view */
+"SQUIInputDurationPickerInputAccessoryViewTitle" = "Done";
+
+/* Title for minutes label. */
+"SQUIInputDurationPickerMinutesTitle" = "min";
+
+/* Title for button to dismiss a picker view */
+"SQUILabelOverPickerFieldViewDone" = "Done";
+
+/* The format string used for displaying placeholder unit prices, e.g., '$0.00/lb'. The first parameter is the amount string, and the second parameter is the abbreviation of the measurement unit. */
+"SQUIMoneyField.UnitPricePlaceholderFormatString" = "%1$@/%2$@";
+
+/* The separator used in the moneyFormatter between the price and the unit. Here it is the ` per ` in $12.34 per lb. */
+"SQUIMoneyField.VoiceOver.UnitPriceSeparator" = " per ";
+
+/* Information about what to do with a currently OFF toggle switch that is spoken by VoiceOver when focused. */
+"SwitchOffAccessibilityHint" = "Double tap to enable";
+
+/* Information about the current value of a currently OFF toggle switch that is spoken by VoiceOver when focused. */
+"SwitchOffAccessibilityLabel" = "Off";
+
+/* Information about what to do with a currently ON toggle switch that is spoken by VoiceOver when focused. */
+"SwitchOnAccessibilityHint" = "Double tap to disable";
+
+/* Information about the current value of a currently ON toggle switch that is spoken by VoiceOver when focused. */
+"SwitchOnAccessibilityLabel" = "On";
+

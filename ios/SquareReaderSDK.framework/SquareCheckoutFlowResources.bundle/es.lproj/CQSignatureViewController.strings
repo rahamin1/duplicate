@@ -1,0 +1,6 @@
+/* Class = "UILabel"; accessibilityLabel = "I agree to pay the above total amount according to my card issuer agreement."; ObjectID = "22"; Note = "<DNL>"; */
+"22.accessibilityLabel" = "Acepto pagar la cantidad total anterior según el acuerdo de emisor de tarjeta.";
+
+/* Class = "UIView"; accessibilityLabel = "Signature Pad"; ObjectID = "64"; */
+"64.accessibilityLabel" = "Panel de firma";
+

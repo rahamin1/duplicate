@@ -1,0 +1,6 @@
+/* Class = "UILabel"; text = "Swipe Card to Charge"; ObjectID = "10"; */
+"10.text" = "Glissez la carte à débiter";
+
+/* Class = "UILabel"; text = "Reader Connected"; ObjectID = "9"; */
+"9.text" = "Lecteur connecté";
+

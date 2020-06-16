@@ -1,0 +1,6 @@
+/* Format string for concatenated printer make and model. */
+"ManufacturerAndModelNameFormat" = "%1$@ %2$@";
+
+/* Display name for peripheral with no custom name, placeholder name, or manufacturer/model name. */
+"SHPPeripheralDefaultDisplayName" = "Périphérique";
+

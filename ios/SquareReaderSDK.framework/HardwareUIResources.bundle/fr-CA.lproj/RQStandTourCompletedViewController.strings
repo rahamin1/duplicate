@@ -1,0 +1,24 @@
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "28"; */
+"28.normalTitle" = "Accéder à la Solution PDV";
+
+/* Class = "UIButton"; normalTitle = "See compatible Hardware"; ObjectID = "29"; */
+"29.normalTitle" = "Afficher le matériel compatible";
+
+/* Class = "UILabel"; text = "Connect your\nhardware at any time."; ObjectID = "30"; */
+"30.text" = "Connectez votre matériel à tout moment.";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "32"; */
+"32.text" = "Dans Paramètres, affichez les statuts de connexion du matériel, testez les appareils actifs et gérez l’impression des commandes et des reçus.";
+
+/* Class = "UIButton"; normalTitle = "Continue to Point of Sale"; ObjectID = "36"; */
+"36.normalTitle" = "Accéder à la Solution PDV Square";
+
+/* Class = "UIButton"; normalTitle = "Go to Hardware Settings"; ObjectID = "37"; */
+"37.normalTitle" = "Accéder aux paramètres du matériel";
+
+/* Class = "UILabel"; text = "Manage your hardware at any time."; ObjectID = "38"; */
+"38.text" = "Gérez votre matériel à tout moment.";
+
+/* Class = "UILabel"; text = "Go to Settings to view your hardware connection status, test connected devices, and manage receipt and ticket printers."; ObjectID = "40"; */
+"40.text" = "Dans Paramètres, affichez les statuts de connexion du matériel, testez les appareils actifs et gérez l’impression des commandes et des reçus.";
+

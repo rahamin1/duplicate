@@ -1,0 +1,24 @@
+/* Class = "UITextField"; accessibilityLabel = "Credit Card Number"; ObjectID = "60"; */
+"60.accessibilityLabel" = "Número de tarjeta de crédito";
+
+/* Class = "UITextField"; placeholder = "3141 5926 5358 9793"; ObjectID = "60"; */
+"60.placeholder" = "3141 5926 5358 9793";
+
+/* Class = "UITextField"; accessibilityLabel = "Credit Card CVV"; ObjectID = "62"; */
+"62.accessibilityLabel" = "Código de seguridad de tarjeta de crédito";
+
+/* Class = "UITextField"; placeholder = "CVV"; ObjectID = "62"; */
+"62.placeholder" = "CVV";
+
+/* Class = "UITextField"; accessibilityLabel = "Credit Card Billing ZIP Code"; ObjectID = "63"; */
+"63.accessibilityLabel" = "Código ZIP de facturación de la tarjeta de crédito";
+
+/* Class = "UITextField"; placeholder = "ZIP"; ObjectID = "63"; */
+"63.placeholder" = "Código ZIP";
+
+/* Class = "UITextField"; accessibilityLabel = "Credit Card Expiration"; ObjectID = "72"; */
+"72.accessibilityLabel" = "Fecha de vencimiento de tarjeta de crédito";
+
+/* Class = "UITextField"; placeholder = "MM/YY"; ObjectID = "72"; */
+"72.placeholder" = "MM/AA";
+

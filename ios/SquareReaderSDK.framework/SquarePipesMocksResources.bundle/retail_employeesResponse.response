@@ -1,0 +1,320 @@
+{
+  "employees" : [
+    {
+      "merchant_supplied_email" : null,
+      "subunit_tokens" : [
+        "32N6YAZ2QE080"
+      ],
+      "merchant_token" : "5N7TN77S7YEX4",
+      "active" : true,
+      "can_access_mobile_register" : false,
+      "updated_at" : "2015-11-04T00:01:35Z",
+      "last_name" : "Bar",
+      "person_token" : null,
+      "can_track_time" : true,
+      "units" : [
+        {
+          "token" : "32N6YAZ2QE080",
+          "nickname" : "THC KIF",
+          "enabled" : true
+        }
+      ],
+      "token" : "84INXN7ojykIIDeKUIX7",
+      "phone_number" : null,
+      "employee_role_tokens" : [
+        "UNS8iciJBCs44LbFQSH5"
+      ],
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_summaries_reports"
+      ],
+      "employee_number" : "5407",
+      "can_access_dashboard" : false,
+      "email" : null,
+      "employee_role_ids" : [
+        23088
+      ],
+      "created_at" : "2015-10-22T20:32:17Z",
+      "can_access_register_with_passcode" : true,
+      "first_name" : "Foo",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "OWLh3kz2mqItIS+3kl7Uk3gjRjgMPFVluV49P7lj29o=",
+        "salt" : "TroyLJOYInP0esZmGKh-"
+      }
+    },
+    {
+      "merchant_supplied_email" : null,
+      "subunit_tokens" : [
+        "32N6YAZ2QE080"
+      ],
+      "merchant_token" : "5N7TN77S7YEX4",
+      "active" : true,
+      "can_access_mobile_register" : true,
+      "updated_at" : "2015-11-04T00:01:07Z",
+      "last_name" : "Burho",
+      "person_token" : "person:OWBEEHNYDOGBCFBG",
+      "can_track_time" : true,
+      "units" : [
+        {
+          "token" : "32N6YAZ2QE080",
+          "nickname" : "THC KIF",
+          "enabled" : false
+        }
+      ],
+      "token" : "eCKmVvAYugfMYwDw2iAL",
+      "phone_number" : null,
+      "employee_role_tokens" : [
+        "XkEM6HnU3OcDi4Rz5M0g"
+      ],
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_apply_restricted_discounts",
+        "employee_change_register_settings",
+        "employee_edit_items",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_cash_drawer_reports",
+        "employee_view_summaries_reports",
+        "employee_dashboard_issue_refunds",
+        "employee_dashboard_view_reports_and_transactions",
+        "employee_dashboard_manage_items",
+        "employee_dashboard_manage_employees",
+        "employee_dashboard_grant_employees_register_access",
+        "employee_dashboard_grant_employees_dashboard_access",
+        "employee_dashboard_manage_timecards",
+        "employee_dashboard_view_customers",
+        "employee_dashboard_manage_customer_campaigns",
+        "employee_dashboard_manage_bank_accounts",
+        "employee_dashboard_manage_business_profile",
+        "employee_dashboard_manage_devices",
+        "employee_dashboard_manage_locations",
+        "employee_dashboard_manage_location_item_libraries",
+        "employee_dashboard_manage_subscriptions",
+        "employee_dashboard_manage_capital",
+        "employee_access_dashboard",
+        "employee_access_register",
+        "employee_access_track_time",
+        "employee_void_open_tickets",
+        "employee_grant_connect_api_access",
+        "employee_access_mobile_register",
+        "employee_use_instant_deposit",
+        "employee_dashboard_manage_invoices",
+        "mobile_employee_access_sales_history",
+        "mobile_employee_apply_restricted_discounts",
+        "mobile_employee_change_register_settings",
+        "mobile_employee_edit_items",
+        "mobile_employee_issue_refunds",
+        "mobile_employee_open_cash_drawer_outside_sale",
+        "mobile_employee_view_cash_drawer_reports",
+        "mobile_employee_view_summaries_reports",
+        "mobile_employee_void_open_tickets",
+        "mobile_employee_use_instant_deposit",
+        "mobile_employee_store_and_forward_payments",
+        "employee_manage_all_open_tickets",
+        "employee_settle_all_payments_awaiting_tip",
+        "mobile_employee_manage_all_open_tickets",
+        "mobile_employee_settle_all_payments_awaiting_tip",
+        "employee_dashboard_manage_instruments_on_file",
+        "employee_view_expected_in_drawer",
+        "mobile_employee_view_expected_in_drawer",
+        "mobile_employee_toggle_offline_mode",
+        "employee_toggle_offline_mode",
+        "employee_use_card_on_file",
+        "mobile_employee_use_card_on_file",
+        "employee_manage_customers",
+        "mobile_employee_manage_customers",
+        "employee_cancel_transaction",
+        "mobile_employee_cancel_transaction"
+      ],
+      "employee_number" : "0378",
+      "can_access_dashboard" : true,
+      "email" : "retail-pos-robots+kiftests@squareup.com",
+      "employee_role_ids" : [
+        23087
+      ],
+      "created_at" : "2015-10-22T20:30:14Z",
+      "can_access_register_with_passcode" : true,
+      "first_name" : "Mark",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "7M7c4DECL81cOsckCrHSqkJf2DWwaO+zd0z1\/BNHm48=",
+        "salt" : "g3a7Aw8a95eoxbZpb1ZG"
+      },
+      "credential" : {
+        "email" : "retail-pos-robots+kiftests@squareup.com",
+        "token" : "5PJ8SSEHHP119"
+      },
+      "dashboard_access_record" : {
+        "pending" : false,
+        "can_resend_invite" : false,
+        "last_logged_in_at" : "2016-03-17T17:10:26Z",
+        "email" : "retail-pos-robots+kiftests@squareup.com",
+        "can_access_dashboard" : true,
+        "first_logged_in_at" : "2015-10-22T20:30:14Z",
+        "can_access_mobile_register" : true
+      }
+    },
+    {
+      "merchant_supplied_email" : null,
+      "subunit_tokens" : [
+        "32N6YAZ2QE080"
+      ],
+      "merchant_token" : "5N7TN77S7YEX4",
+      "active" : true,
+      "can_access_mobile_register" : false,
+      "updated_at" : "2015-10-22T21:39:56Z",
+      "last_name" : "Qux",
+      "person_token" : null,
+      "can_track_time" : true,
+      "units" : [
+        {
+          "token" : "32N6YAZ2QE080",
+          "nickname" : "THC KIF",
+          "enabled" : true
+        }
+      ],
+      "token" : "iBvnSW-RFrxuO1LzkwO5",
+      "phone_number" : null,
+      "employee_role_tokens" : [
+        "UNS8iciJBCs44LbFQSH5"
+      ],
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_summaries_reports"
+      ],
+      "employee_number" : "6113",
+      "can_access_dashboard" : false,
+      "email" : null,
+      "employee_role_ids" : [
+        23088
+      ],
+      "created_at" : "2015-10-22T21:39:49Z",
+      "can_access_register_with_passcode" : true,
+      "first_name" : "Baz",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "a9ESBRu8XwB0AsAnwDJCyZzqTK3XjQV6KqCu7F+26Tk=",
+        "salt" : "rYYmw11ITbTwvGUOfruz"
+      }
+    },
+    {
+      "employee_number" : "2222",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : null,
+      "active" : true,
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_apply_restricted_discounts",
+        "employee_change_register_settings",
+        "employee_edit_items",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_cash_drawer_reports",
+        "employee_view_summaries_reports",
+        "employee_void_open_tickets",
+        "employee_use_instant_deposit",
+        "employee_manage_all_open_tickets",
+        "employee_settle_all_payments_awaiting_tip",
+        "employee_view_expected_in_drawer",
+        "employee_toggle_offline_mode",
+        "employee_use_card_on_file",
+        "employee_manage_customers",
+        "employee_cancel_transaction",
+        "employee_adjust_punches",
+        "employee_manage_employees",
+        "employee_edit_taxes_in_sale",
+        "employee_use_invoices_applet",
+        "employee_edit_surcharges_in_sale",
+        "employee_create_bank_account",
+        "employee_manage_all_calendars",
+        "employee_manage_appointments_business_profile"
+      ],
+      "employee_role_tokens" : [
+        "9XSjI2f3x07ZugDExoSW"
+      ],
+      "can_track_time" : true,
+      "token" : "clocked-out-employee-token",
+      "first_name" : "Mark",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "cP8+yJx9o25mw5AO7pm6ME3wwQFjqCL7V24ZY11AjUg=",
+        "salt" : "c6QaRwTLNKUVbhD2WCYF"
+      },
+      "current_timecard" : {
+        "employee_token" : "o-DBtstTYywwbqykeAx2",
+        "clockout_unit_token" : null,
+        "id" : "S20D4HQWJ19FQ",
+        "clockin_time" : "2017-08-31T22:37:06Z",
+        "clockout_time" : null,
+        "created_at" : "2017-08-31T22:37:06Z",
+        "clockin_unit_token" : "E37JF3BW0ZWPA",
+        "updated_at" : "2017-08-31T22:37:06Z"
+      },
+      "last_name" : "Buhro",
+      "email" : "rst-robots+kiftests@squareup.com"
+    },
+   {
+      "employee_number" : "0000",
+      "can_access_register_with_passcode" : true,
+      "phone_number" : "",
+      "active" : true,
+      "permissions" : [
+        "employee_access_sales_history",
+        "employee_apply_restricted_discounts",
+        "employee_change_register_settings",
+        "employee_edit_items",
+        "employee_issue_refunds",
+        "employee_open_cash_drawer_outside_sale",
+        "employee_view_cash_drawer_reports",
+        "employee_view_summaries_reports",
+        "employee_void_open_tickets",
+        "employee_use_instant_deposit",
+        "employee_manage_all_open_tickets",
+        "employee_settle_all_payments_awaiting_tip",
+        "employee_view_expected_in_drawer",
+        "employee_toggle_offline_mode",
+        "employee_use_card_on_file",
+        "employee_manage_customers",
+        "employee_cancel_transaction",
+        "employee_adjust_punches",
+        "employee_manage_employees",
+        "employee_edit_taxes_in_sale",
+        "employee_use_invoices_applet",
+        "employee_edit_surcharges_in_sale",
+        "employee_create_bank_account",
+        "employee_manage_all_calendars",
+        "employee_manage_appointments_business_profile",
+        "employee_run_close_of_day",
+        "employee_manage_service_settings"
+      ],
+      "employee_role_tokens" : [
+        "3exxwANAgHq-SdTt21oM"
+      ],
+      "can_track_time" : true,
+      "token" : "clocked-in-employee-token",
+      "first_name" : "Mister",
+      "passcode_only_credential" : {
+        "iterations" : 1,
+        "hashed_passcode" : "0nAJemDurgNFxei5SbZteyj3mf3hd+1u+vWA9nG+n5E=",
+        "salt" : "FVc3gyw3B2ev7_1yFroC"
+      },
+      "current_timecard" : {
+        "employee_token" : "KbAbKsF1MSnBxXO7Nilp",
+        "clockout_unit_token" : null,
+        "id" : "MCM5MBQCPVM43",
+        "clockin_time" : "2017-08-31T22:37:33Z",
+        "clockout_time" : null,
+        "created_at" : "2017-08-31T22:37:33Z",
+        "clockin_unit_token" : "E37JF3BW0ZWPA",
+        "updated_at" : "2017-08-31T22:37:33Z"
+      },
+      "last_name" : "Panucci",
+      "email" : "rst-robots+panucci@squareup.com"
+    }
+  ]
+}
